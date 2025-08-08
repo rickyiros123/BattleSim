@@ -1,6 +1,6 @@
 [
   {
-    "name": "Seraphon",
+    "factionName": "Seraphon",
     "order": "Order",
     "battleTraits": ["The Great Plan", "Further the Great Plan", "Itzl the Tamer", "Quetzl the Preserver", "Sotek the Deliverer", "Tepok the Seer"],
     "battleFormation": ["Eternal Starhost", "Shadowstrike Starhost", "Sunclaw Starhost", "Thunderquake Starhost"],
@@ -9,22 +9,33 @@
     "spellLore": ["Lore of Celestial Manipulation", "Lore of Primal Jungles"],
     "units": [
       {
-        "name": "Saurus Warriors",
+        "unitName": "Saurus Warriors",
         "points": 0,
         "move": 5,
         "save": 4,
         "control": 1,
-        "health": 2,
+        "healthPerModel": 2,
         "ward": 0,
-        "models": 10,
+        "modelCount": 10,
         "keywords": ["Infantry", "Champion", "Musician", "Standard Bearer", "Order", "Seraphon", "Saurus"],
-        "weapons": [{ "name": "Celestite Weapon", "type": "Melee", "range": 1, "attacks": 2, "toHit": 3, "toWound": 3, "rend": -1, "damage": 1 }],
+        "weapons": [
+          {
+            "weaponName": "Celestite Weapon",
+            "type": "Melee",
+            "range": 1,
+            "numberOfAttacks": 2,
+            "toHit": 3,
+            "toWound": 3,
+            "rend": -1,
+            "weaponDamage": 1
+          }
+        ],
         "specialRules": ["Ordered Cohorts"]
       }
     ]
   },
   {
-    "name": "Ossiarch Bonereapers",
+    "factionName": "Ossiarch Bonereapers",
     "order": "Death",
     "battleTraits": ["Unstoppable Advance", "Re-Form Ranks", "Coordinated Charge", "Counter-Strike", "Bluedgeon", "Impenetrable Ranks"],
     "battleFormation": ["Mortisan Council", "Mortek Ballistari", "Kavalos Lance", "Mortek Phalanx"],
@@ -34,26 +45,25 @@
     "Manifestation Lore": ["Horrors of the Necropolis"],
     "units": [
       {
-        "name": "Mortek Guard",
+        "unitName": "Mortek Guard",
         "points": 0,
         "move": 4,
         "save": 4,
         "control": 1,
-        "health": 1,
+        "healthPerModel": 1,
         "ward": 6,
-        "models": 10,
+        "modelCount": 10,
         "keywords": ["Infantry", "Champion", "Standard Bearer"],
         "weapons": [
           {
-            "name": "Nadirite Weapons",
+            "weaponName": "Nadirite Weapons",
             "type": "Melee",
             "range": 1,
-            "attacks": 2,
+            "numberOfAttacks": 2,
             "toHit": 3,
             "toWound": 4,
             "rend": 0,
-            "damage": 1,
-            "abilities": { "Anti-charge(+1 rend)": 1, "Crit(2 hits)": 2 }
+            "weaponDamage": 1
           }
         ],
         "specialRules": ["Shieldwall"]

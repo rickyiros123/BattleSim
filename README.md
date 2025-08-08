@@ -28,3 +28,16 @@ A battle simulator designed to model combat between units using JSON-based army 
    ```bash
    g++ src/main.cpp -o battle-sim
    ```
+
+---
+
+## TODO
+
+- [ ] Implement JSON parser to load units and factions dynamically
+- [ ] Complete combat simulation logic including damage calculation and wound tracking
+- [ ] Add support for multiple weapon profiles per unit
+- [ ] Develop a user interface (desktop and mobile)
+- [ ] Create automated tests for core simulation functions
+- [ ] Optimize simulation performance for running thousands of battles
+- [ ] Document JSON schema and usage examples
+- [ ] Explore deploying as a mobile app on app stores

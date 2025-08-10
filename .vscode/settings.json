@@ -5,6 +5,15 @@
   "editor.formatOnSave": true,
   "C_Cpp.clang_format_path": "C:/Program Files/LLVM/bin/clang-format.exe",
   "files.associations": {
-    "xstring": "cpp"
+    "xstring": "cpp",
+    "format": "cpp",
+    "istream": "cpp",
+    "memory": "cpp",
+    "type_traits": "cpp",
+    "xlocmes": "cpp",
+    "xlocmon": "cpp",
+    "xlocnum": "cpp",
+    "xloctime": "cpp",
+    "vector": "cpp"
   }
 }

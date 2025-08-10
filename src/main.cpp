@@ -72,20 +72,37 @@ int main()
 {
   std::srand(static_cast<unsigned int>(std::time(nullptr))); // Seed RNG
 
-  std::ifstream factionData("data/factions/seraphon.json");
-  if (!factionData)
+  std::ifstream seraphonRawData("data/factions/seraphon.json");
+  if (!seraphonRawData)
   {
     std::cerr << "Could not open factions.json\n";
     return 1;
   }
 
-  json jsonData;
+  json seraphonData;
+  seraphonRawData >> seraphonData;
 
-  factionData >> jsonData;
+  std::ifstream osbRawData("data/factions/ossiarch_bonereapers.json");
+  if (!osbRawData)
+  {
+    std::cerr << "Could not open factions.json\n";
+    return 1;
+  }
 
-  cout << "Unit name: " << jsonData["units"][0]["unitName"].get<std::string>() << "\n";
+  json ossiarch_bonereapersData;
+  osbRawData >> ossiarch_bonereapersData;
 
-  // RollResult rollResult = roll_d6(20, 6, 5, 6);
-  // std::cout << "20d6, 5s to hit: " << rollResult.successfulRolls << " hits and " << rollResult.crits << " crits!" << std::endl;
+  Unit attacker, defender;
+
+  attacker.unitName = ossiarch_bonereapersData["units"][0]["unitName"].get<std::string>();
+  attacker.modelCount = ossiarch_bonereapersData["units"][0]["modelCount"];
+  attacker.save = ossiarch_bonereapersData["units"][0]["save"];
+  attacker.healthPerModel = ossiarch_bonereapersData["units"][0]["healthPerModel"];
+  attacker.ward = ossiarch_bonereapersData["units"][0]["ward"].get<int>();
+
+  attacker.weapons[0].toHit = ossiarch_bonereapersData["units"][0]["weapons"][0]["toHit"];
+
+  cout << "Ward roll: " << attacker.ward << endl;
+
   return 0;
 }

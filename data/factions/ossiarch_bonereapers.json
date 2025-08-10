@@ -1,0 +1,36 @@
+{
+  "factionName": "Ossiarch Bonereapers",
+  "order": "Death",
+  "battleTraits": ["Unstoppable Advance", "Re-Form Ranks", "Coordinated Charge", "Counter-Strike", "Bluedgeon", "Impenetrable Ranks"],
+  "battleFormation": ["Mortisan Council", "Mortek Ballistari", "Kavalos Lance", "Mortek Phalanx"],
+  "heroicTraits": ["Diversionary Tactics", "Aura of Sterility", "Mighty Archaeossian"],
+  "artifactsOfPower": ["Marrowpact", "Lode of Saturatin", "Helm of Tyranny"],
+  "spellLore": ["Lore of Ossian Sorcery"],
+  "Manifestation Lore": ["Horrors of the Necropolis"],
+  "units": [
+    {
+      "unitName": "Mortek Guard",
+      "points": 0,
+      "move": 4,
+      "save": 4,
+      "control": 1,
+      "healthPerModel": 1,
+      "ward": 6,
+      "modelCount": 10,
+      "keywords": ["Infantry", "Champion", "Standard Bearer"],
+      "weapons": [
+        {
+          "weaponName": "Nadirite Weapons",
+          "type": "Melee",
+          "range": 1,
+          "numberOfAttacks": 2,
+          "toHit": 3,
+          "toWound": 4,
+          "rend": 0,
+          "weaponDamage": 1
+        }
+      ],
+      "specialRules": ["Shieldwall"]
+    }
+  ]
+}

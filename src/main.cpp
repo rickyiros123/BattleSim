@@ -49,6 +49,25 @@ RollResult roll_d6(int numberOfDice, int numberOfSides, int desiredRoll, int cri
   return rollResult;
 }
 
+void battleSequence(Unit attacker, Unit &defender)
+{
+  RollResult hitResult = roll_d6(attacker.weapons[0].numberOfAttacks, 6, attacker.weapons[0].toHit, 6);
+  RollResult woundResult = roll_d6(hitResult.successfulRolls, 6, attacker.weapons[0].toWound, 6);
+  RollResult saveResult = roll_d6(woundResult.successfulRolls, 6, defender.save, 6);
+  int wounds = woundResult.successfulRolls - saveResult.successfulRolls;
+  if (defender.ward > 0)
+  {
+    RollResult wardSaveResult = roll_d6(wounds, 6, defender.ward, 6);
+    wounds = wounds - wardSaveResult.successfulRolls;
+  }
+  while (wounds >= defender.healthPerModel && defender.modelCount)
+  {
+    defender.modelCount = defender.modelCount - (wounds / defender.healthPerModel);
+    wounds = wounds - defender.healthPerModel;
+  }
+  defender.floatingDamage = defender.floatingDamage - wounds;
+}
+
 int main()
 {
   std::srand(static_cast<unsigned int>(std::time(nullptr))); // Seed RNG

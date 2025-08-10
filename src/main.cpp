@@ -72,6 +72,7 @@ int main()
 {
   std::srand(static_cast<unsigned int>(std::time(nullptr))); // Seed RNG
 
+  // Seraphon parsing
   std::ifstream seraphonRawData("data/factions/seraphon.json");
   if (!seraphonRawData)
   {
@@ -81,7 +82,8 @@ int main()
 
   json seraphonData;
   seraphonRawData >> seraphonData;
-
+  //====================================================================
+  // OSB parsing
   std::ifstream osbRawData("data/factions/ossiarch_bonereapers.json");
   if (!osbRawData)
   {
@@ -91,18 +93,23 @@ int main()
 
   json ossiarch_bonereapersData;
   osbRawData >> ossiarch_bonereapersData;
+  //====================================================================
 
   Unit attacker, defender;
-
-  attacker.unitName = ossiarch_bonereapersData["units"][0]["unitName"].get<std::string>();
-  attacker.modelCount = ossiarch_bonereapersData["units"][0]["modelCount"];
-  attacker.save = ossiarch_bonereapersData["units"][0]["save"];
-  attacker.healthPerModel = ossiarch_bonereapersData["units"][0]["healthPerModel"];
-  attacker.ward = ossiarch_bonereapersData["units"][0]["ward"].get<int>();
+  Weapon osbWeapon;
+  attacker.weapons.push_back(osbWeapon);
 
   attacker.weapons[0].toHit = ossiarch_bonereapersData["units"][0]["weapons"][0]["toHit"];
+  attacker.weapons[0].toWound = ossiarch_bonereapersData["units"][0]["weapons"][0]["toWound"];
+  attacker.weapons[0].weaponDamage = ossiarch_bonereapersData["units"][0]["weapons"][0]["weaponDamage"];
+  attacker.weapons[0].rend = ossiarch_bonereapersData["units"][0]["weapons"][0]["rend"];
+  attacker.weapons[0].numberOfAttacks = ossiarch_bonereapersData["units"][0]["weapons"][0]["numberOfAttacks"];
+  attacker.unitName = ossiarch_bonereapersData["units"][0]["unitName"].get<std::string>();
+  attacker.weapons[0].weaponName = ossiarch_bonereapersData["units"][0]["weapons"][0]["weaponName"].get<std::string>();
 
-  cout << "Ward roll: " << attacker.ward << endl;
+  cout << "Unit Name: " << attacker.unitName << endl;
+  cout << attacker.weapons[0].weaponName << " has " << attacker.weapons[0].numberOfAttacks << " attacks";
+  cout << " and is " << attacker.weapons[0].toHit << "s to hit and " << attacker.weapons[0].toWound << " to wound." << endl;
 
   return 0;
 }

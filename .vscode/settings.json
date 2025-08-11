@@ -16,7 +16,8 @@
     "xloctime": "cpp",
     "vector": "cpp",
     "iostream": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "string": "cpp"
   },
   "editor.defaultFormatter": "xaver.clang-format"
 }

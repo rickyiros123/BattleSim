@@ -28,9 +28,9 @@ struct Weapon {
     string weaponName;
 };
 
-class Unit {                                                     // The class
-   public:                                                       // Access specifier
-    int modelCount, healthPerModel, floatingDamage, save, ward;  // Attribute (int variable)
+class Unit {                                                     
+   public:                                                       
+    int modelCount, healthPerModel, floatingDamage, save, ward;  
     vector<Weapon> weapons;
     vector<string> keywords;
     string unitName;
@@ -87,7 +87,16 @@ void battleSequence(Unit attacker, Unit &defender) {
     }
 }
 
-json loadJsonFiles(std::string factionName) {
+json loadJsonFiles(std::string &factionName) {
+    for(char &c : factionName){
+        c = tolower(c);
+        
+        if(c == ' '){
+            c = '_';
+        }
+        cout << c;
+    }
+
     std::ifstream factionRawData("data/factions/" + factionName + ".json");
     if (!factionRawData) {
         std::cerr << "Could not open factions.json, try again. \n" << endl;
@@ -114,14 +123,16 @@ int main() {
 
     while (yourFactionData.empty()) {
         cout << "Enter your faction name: ";
-        cin >> yourFaction;
+        getline(std::cin, yourFaction);
         yourFactionData = loadJsonFiles(yourFaction);
+        cout << endl;
     }
 
     while (opponentFactionData.empty()) {
         cout << "Enter your opponent's faction name: ";
-        cin >> opponentFaction;
+        getline(std::cin, opponentFaction);
         opponentFactionData = loadJsonFiles(opponentFaction);
+        cout << endl;
     }
 
     displayUnitNames(yourFactionData);

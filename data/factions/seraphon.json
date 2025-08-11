@@ -31,6 +31,40 @@
         }
       ],
       "specialRules": ["Ordered Cohorts"]
+    },
+    {
+      "unitName": "Kroxigors",
+      "points": 0,
+      "move": 5,
+      "save": 4,
+      "control": 2,
+      "healthPerModel": 6,
+      "ward": 0,
+      "modelCount": 3,
+      "keywords": ["Infantry", "Order", "Seraphon", "Kroxigor"],
+      "weapons": [
+        {
+          "weaponName": "Drakebite Maul",
+          "type": "Melee",
+          "range": 1,
+          "numberOfAttacks": 4,
+          "toHit": 4,
+          "toWound": 2,
+          "rend": 1,
+          "weaponDamage": 2
+        },
+        {
+          "weaponName": "MoonStone Hammer",
+          "type": "Melee",
+          "range": 1,
+          "numberOfAttacks": 4,
+          "toHit": 3,
+          "toWound": 2,
+          "rend": 1,
+          "weaponDamage": 3
+        }
+      ],
+      "specialRules": ["Brutal Blows"]
     }
   ]
 }

@@ -68,48 +68,39 @@ void battleSequence(Unit attacker, Unit &defender)
   defender.floatingDamage = defender.floatingDamage - wounds;
 }
 
+json loadJsonFiles(std::string factionName){
+  std::ifstream factionRawData("data/faction/" + factionName + ".json");
+  if(!factionRawData){
+    std::cerr << "Could not open facations.json\n" << endl;
+  }
+
+  json facitonData;
+  factionRawData >> facitonData;
+  return facitonData;
+}
+
 int main()
 {
   std::srand(static_cast<unsigned int>(std::time(nullptr))); // Seed RNG
 
-  // Seraphon parsing
-  std::ifstream seraphonRawData("data/factions/seraphon.json");
-  if (!seraphonRawData)
-  {
-    std::cerr << "Could not open factions.json\n";
-    return 1;
-  }
+  json seraphonData = loadJsonFiles("seraphon"); // Seraphon parsing
 
-  json seraphonData;
-  seraphonRawData >> seraphonData;
-  //====================================================================
-  // OSB parsing
-  std::ifstream osbRawData("data/factions/ossiarch_bonereapers.json");
-  if (!osbRawData)
-  {
-    std::cerr << "Could not open factions.json\n";
-    return 1;
-  }
 
-  json ossiarch_bonereapersData;
-  osbRawData >> ossiarch_bonereapersData;
-  //====================================================================
 
-  Unit attacker, defender;
-  Weapon osbWeapon;
-  attacker.weapons.push_back(osbWeapon);
 
-  attacker.weapons[0].toHit = ossiarch_bonereapersData["units"][0]["weapons"][0]["toHit"];
-  attacker.weapons[0].toWound = ossiarch_bonereapersData["units"][0]["weapons"][0]["toWound"];
-  attacker.weapons[0].weaponDamage = ossiarch_bonereapersData["units"][0]["weapons"][0]["weaponDamage"];
-  attacker.weapons[0].rend = ossiarch_bonereapersData["units"][0]["weapons"][0]["rend"];
-  attacker.weapons[0].numberOfAttacks = ossiarch_bonereapersData["units"][0]["weapons"][0]["numberOfAttacks"];
-  attacker.unitName = ossiarch_bonereapersData["units"][0]["unitName"].get<std::string>();
-  attacker.weapons[0].weaponName = ossiarch_bonereapersData["units"][0]["weapons"][0]["weaponName"].get<std::string>();
+  // Unit attacker, defender;
+  // Weapon osbWeapon;
+  // attacker.weapons.push_back(osbWeapon);
 
-  cout << "Unit Name: " << attacker.unitName << endl;
-  cout << attacker.weapons[0].weaponName << " has " << attacker.weapons[0].numberOfAttacks << " attacks";
-  cout << " and is " << attacker.weapons[0].toHit << "s to hit and " << attacker.weapons[0].toWound << " to wound." << endl;
+  // attacker.weapons[0].toHit = ossiarch_bonereapersData["units"][0]["weapons"][0]["toHit"];
+  // attacker.weapons[0].toWound = ossiarch_bonereapersData["units"][0]["weapons"][0]["toWound"];
+  // attacker.weapons[0].weaponDamage = ossiarch_bonereapersData["units"][0]["weapons"][0]["weaponDamage"];
+  // attacker.weapons[0].rend = ossiarch_bonereapersData["units"][0]["weapons"][0]["rend"];
+  // attacker.weapons[0].numberOfAttacks = ossiarch_bonereapersData["units"][0]["weapons"][0]["numberOfAttacks"];
+  // attacker.unitName = ossiarch_bonereapersData["units"][0]["unitName"].get<std::string>();
+  // attacker.weapons[0].weaponName = ossiarch_bonereapersData["units"][0]["weapons"][0]["weaponName"].get<std::string>();
+
+  
 
   return 0;
 }

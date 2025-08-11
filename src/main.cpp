@@ -14,6 +14,15 @@ struct RollResult {
     int crits;
 };
 
+struct AttackSummary {
+    RollResult hitResult;
+    RollResult woundResult;
+    RollResult saveResult;
+    RollResult wardSaveResult;
+    int woundsInflicted;
+    int modelsLost;
+};
+
 struct Weapon {
     int numberOfAttacks, toHit, toWound, rend, weaponDamage, range;
     string weaponName;
@@ -27,7 +36,7 @@ class Unit {                                                     // The class
     string unitName;
 };
 
-RollResult roll_d6(int numberOfDice, int numberOfSides, int desiredRoll, int critValue) {
+RollResult roll_dice(int numberOfDice, int numberOfSides, int desiredRoll, int critValue) {
     RollResult rollResult{0, 0};
     for (int i = 0; i < numberOfDice; i++) {
         int roll = 0;
@@ -42,43 +51,40 @@ RollResult roll_d6(int numberOfDice, int numberOfSides, int desiredRoll, int cri
     return rollResult;
 }
 
-void battleSequence(Unit attacker, Unit &defender) {
-    RollResult hitResult = roll_d6(attacker.weapons[0].numberOfAttacks, 6, attacker.weapons[0].toHit, 6);
-    RollResult woundResult = roll_d6(hitResult.successfulRolls, 6, attacker.weapons[0].toWound, 6);
-    RollResult saveResult = roll_d6(woundResult.successfulRolls, 6, defender.save, 6);
-    int wounds = woundResult.successfulRolls - saveResult.successfulRolls;
+AttackSummary resolveAttack(Weapon attackingWeapon, Unit &defender) {
+    AttackSummary summary;
+
+    summary.hitResult = roll_dice(attackingWeapon.numberOfAttacks, 6, attackingWeapon.toHit, 6);
+    summary.woundResult = roll_dice(summary.hitResult.successfulRolls, 6, attackingWeapon.toWound, 6);
+    summary.saveResult = roll_dice(summary.woundResult.successfulRolls, 6, defender.save, 6);
+
+    summary.woundsInflicted = summary.woundResult.successfulRolls - summary.saveResult.successfulRolls;
+
     if (defender.ward > 0) {
-        RollResult wardSaveResult = roll_d6(wounds, 6, defender.ward, 6);
-        wounds = wounds - wardSaveResult.successfulRolls;
+        summary.wardSaveResult = roll_dice(summary.woundsInflicted, 6, defender.ward, 6);
+        summary.woundsInflicted -= summary.wardSaveResult.successfulRolls;
     }
-    while (wounds >= defender.healthPerModel && defender.modelCount) {
-        defender.modelCount = defender.modelCount - (wounds / defender.healthPerModel);
-        wounds = wounds - defender.healthPerModel;
+
+    // Apply woundsInflicted to defender's health and model count
+    while (summary.woundsInflicted >= defender.healthPerModel && defender.modelCount) {
+        defender.modelCount -= (summary.woundsInflicted / defender.healthPerModel);
+        summary.woundsInflicted -= defender.healthPerModel;
     }
-    defender.floatingDamage = defender.floatingDamage - wounds;
+    defender.floatingDamage -= summary.woundsInflicted;
 
-    // pseudocode for resolve attack function:
-    //     function resolveAttack(attackingWeapon, defender):
-    //     hits = roll_dice(attackingWeapon.numberOfAttacks, attackingWeapon.toHit)
-    //     wounds = roll_dice(hits.successes, attackingWeapon.toWound)
-    //     saves = roll_dice(wounds.successes, defender.save)
+    return summary;
+}
 
-    //     wounds_inflicted = wounds.successes - saves.successes
-
-    //     if defender has ward save:
-    //         ward_saves = roll_dice(wounds_inflicted, defender.ward)
-    //         wounds_inflicted = wounds_inflicted - ward_saves.successes
-
-    //     apply wounds_inflicted to defender's health and model count
-
-    //     return summary of hits, wounds, saves, wounds_inflicted, updated defender status
-
-    // function battleSequence(attacker, defender):
-    //     for each weapon in attacker.weapons:
-    //         attack_result = resolveAttack(weapon, defender)
-    //         update defender with attack_result
-    //         if defender is defeated:
-    //             break
+void battleSequence(Unit attacker, Unit &defender) {
+    for (const auto &weapon : attacker.weapons) {
+        AttackSummary attackResult = resolveAttack(weapon, defender);
+        // Update defender with attackResult
+        if (defender.modelCount == 0) {
+            // Defender is defeated
+            defender.floatingDamage = 0;
+            break;
+        }
+    }
 }
 
 json loadJsonFiles(std::string factionName) {
@@ -117,6 +123,9 @@ int main() {
         cin >> opponentFaction;
         opponentFactionData = loadJsonFiles(opponentFaction);
     }
+
+    displayUnitNames(yourFactionData);
+    displayUnitNames(opponentFactionData);
 
     // Unit attacker, defender;
     // Weapon osbWeapon;

@@ -15,6 +15,7 @@
       "save": 4,
       "control": 1,
       "healthPerModel": 1,
+      "floatingDamage": 0,
       "ward": 6,
       "modelCount": 10,
       "keywords": ["Infantry", "Champion", "Standard Bearer"],

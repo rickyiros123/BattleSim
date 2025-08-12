@@ -57,34 +57,48 @@ class Faction{
 
 void Faction::populateFaction(const json &factionData, vector<Unit> &units) {
     for (const auto &unit : factionData["units"]) {
-        cout << unit["unitName"].get<string>() << endl; 
+        cout << "Adding unit: " << unit["unitName"] << endl;
+        cout << "  Extracting modelCount..." << endl;
         int modelCount = unit["modelCount"].get<int>();
-        cout << "Adding " << modelCount << " models to the unit" << endl;
+        cout << "  Extracting healthPerModel..." << endl;
         int healthPerModel = unit["healthPerModel"].get<int>();
-        cout << "Each model has " << healthPerModel << " health" << endl;
+        cout << "  Extracting floatingDamage..." << endl;
         int floatingDamage = unit["floatingDamage"].get<int>();
-        int save = unit["unit"].get<int>();
+        cout << "  Extracting save..." << endl;
+        int save = unit["save"].get<int>();
+        cout << "  Extracting ward..." << endl;
         int ward = unit["ward"].get<int>();
         vector<Weapon> weapons;
-        cout << "Adding weapons to the unit" << endl;
+        cout << "  Extracting weapons..." << endl;
         for (const auto& w : unit["weapons"]) {
             Weapon weapon;
+            cout << "    Extracting numberOfAttacks..." << endl;
             weapon.numberOfAttacks = w["numberOfAttacks"].get<int>();
+            cout << "    Extracting toHit..." << endl;
             weapon.toHit = w["toHit"].get<int>();
+            cout << "    Extracting toWound..." << endl;
             weapon.toWound = w["toWound"].get<int>();
+            cout << "    Extracting rend..." << endl;
             weapon.rend = w["rend"].get<int>();
+            cout << "    Extracting weaponDamage..." << endl;
             weapon.weaponDamage = w["weaponDamage"].get<int>();
+            cout << "    Extracting range..." << endl;
             weapon.range = w["range"].get<int>();
+            cout << "    Extracting weaponName..." << endl;
             weapon.weaponName = w["weaponName"].get<string>();
             weapons.push_back(weapon);
         }
         vector<string> keywords;
+        cout << "  Extracting keywords..." << endl;
         for(const auto& keyword: unit["keywords"]){
             keywords.push_back(keyword);
         }
+        cout << "  Extracting unitName..." << endl;
         string unitName = unit["unitName"];
+        cout << "  Creating Unit object..." << endl;
         Unit unitToAdd(modelCount, healthPerModel, floatingDamage, save, ward, weapons, keywords, unitName);
         units.push_back(unitToAdd);
+        cout << "  Unit added successfully.\n" << endl;
     }
 }
 

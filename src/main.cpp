@@ -29,12 +29,28 @@ struct Weapon {
 };
 
 class Unit {                                                     
-   public:                                                       
+   public:                            
+    Unit();                           
     int modelCount, healthPerModel, floatingDamage, save, ward;  
     vector<Weapon> weapons;
     vector<string> keywords;
     string unitName;
 };
+
+Unit::Unit(json faction){
+
+}
+
+class Faction{
+    public:
+    vector<Unit> Units;
+};
+
+void displayUnitNames(const json &factionData) {
+    for (const auto &unit : factionData["units"]) {
+        cout << unit["unitName"].get<string>() << endl;
+    }
+}
 
 RollResult roll_dice(int numberOfDice, int numberOfSides, int desiredRoll, int critValue) {
     RollResult rollResult{0, 0};
@@ -94,7 +110,6 @@ json loadJsonFiles(std::string &factionName) {
         if(c == ' '){
             c = '_';
         }
-        cout << c;
     }
 
     std::ifstream factionRawData("data/factions/" + factionName + ".json");
@@ -108,24 +123,22 @@ json loadJsonFiles(std::string &factionName) {
     return factionData;
 }
 
-void displayUnitNames(const json &factionData) {
-    for (const auto &unit : factionData["units"]) {
-        cout << unit["unitName"].get<string>() << endl;
-    }
-}
+
 
 int main() {
     std::srand(static_cast<unsigned int>(std::time(nullptr)));  // Seed RNG
     std::string yourFaction = "";
     std::string opponentFaction = "";
-    json yourFactionData;
+    json attackerfaction;
     json opponentFactionData;
 
-    while (yourFactionData.empty()) {
-        cout << "Enter your faction name: ";
+    while (attackerfaction.empty()) {
+        cout << "Enter the attckers faction name: ";
         getline(std::cin, yourFaction);
-        yourFactionData = loadJsonFiles(yourFaction);
+        attackerfaction = loadJsonFiles(yourFaction);
         cout << endl;
+        cout << "What is the attacking unit" << endl;
+
     }
 
     while (opponentFactionData.empty()) {
@@ -135,20 +148,29 @@ int main() {
         cout << endl;
     }
 
-    displayUnitNames(yourFactionData);
-    displayUnitNames(opponentFactionData);
+    int input;
+    while(input != 3){
+        cout << "======Welcome to the Battle Sim======" << endl;
+        cout << "What would you like to do?" << endl;
+        cout << "1. Set up an battle." << endl;
+        cout << "2. Make two units fight" << endl;
+        cout << "3. Close program" << endl;
+        switch (input){
+            case 1: 
+                cout << "Set up battle place holder" << endl;
+                break;
+            case 2:
+                cout << "Make two units fight place holder" << endl;
+                break;
+            case 3: 
+                cout << "Close programer placeholder" << endl;
+                break;
+            default:
+                cout << "Invalid optio, try again" << endl;
+                break;
+        }
+    }
 
-    // Unit attacker, defender;
-    // Weapon osbWeapon;
-    // attacker.weapons.push_back(osbWeapon);
-
-    // attacker.weapons[0].toHit = ossiarch_bonereapersData["units"][0]["weapons"][0]["toHit"];
-    // attacker.weapons[0].toWound = ossiarch_bonereapersData["units"][0]["weapons"][0]["toWound"];
-    // attacker.weapons[0].weaponDamage = ossiarch_bonereapersData["units"][0]["weapons"][0]["weaponDamage"];
-    // attacker.weapons[0].rend = ossiarch_bonereapersData["units"][0]["weapons"][0]["rend"];
-    // attacker.weapons[0].numberOfAttacks = ossiarch_bonereapersData["units"][0]["weapons"][0]["numberOfAttacks"];
-    // attacker.unitName = ossiarch_bonereapersData["units"][0]["unitName"].get<std::string>();
-    // attacker.weapons[0].weaponName = ossiarch_bonereapersData["units"][0]["weapons"][0]["weaponName"].get<std::string>();
 
     return 0;
 }

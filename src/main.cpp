@@ -123,6 +123,42 @@ AttackSummary resolveAttack(Weapon attackingWeapon, Unit &defender) {
     return summary;
 }
 
+// Here’s a detailed review of your function’s logic, including potential issues and improvements:
+
+// Dice Roll Sequence:
+// You roll to hit, then to wound (using successful hits), then to save (using successful wounds). This is correct for most wargame systems.
+// Wounds Inflicted Calculation:
+// summary.woundsInflicted = summary.woundResult.successfulRolls - summary.saveResult.successfulRolls;
+// This is correct: wounds that are not saved go through.
+// Ward Save:
+// If defender.ward > 0, you roll ward saves for woundsInflicted and subtract successful ward saves.
+// This is correct, but you should check for negative woundsInflicted after this subtraction.
+// Model Reduction Logic:
+// The while loop and defender.modelCount -= (summary.woundsInflicted / defender.healthPerModel); is problematic:
+// If woundsInflicted < healthPerModel, this subtracts zero models, and the leftover wounds are not tracked as floating damage.
+// The loop and subtraction logic can result in incorrect model reduction if woundsInflicted is not a multiple of healthPerModel.
+// summary.woundsInflicted -= defender.healthPerModel; inside the loop is not correct if you’re subtracting multiple models at once.
+// Floating Damage:
+// defender.floatingDamage -= summary.woundsInflicted; is not correct. Floating damage should accumulate leftover wounds that don’t kill a model, not subtract from a pool.
+// Negative Values:
+// There are no checks to prevent negative woundsInflicted, modelCount, or floatingDamage.
+// No Handling for Overkill:
+// If woundsInflicted is very high, modelCount could go negative.
+// Summary of Issues:
+
+// Model reduction and floating damage logic is not robust.
+// Negative values are possible.
+// Overkill is not handled.
+// Recommendation:
+
+// After all saves, calculate total wounds to apply: woundsInflicted + floatingDamage.
+// Calculate models lost: modelsLost = totalWounds / healthPerModel.
+// Update modelCount: subtract modelsLost, clamp to zero.
+// Update floatingDamage: floatingDamage = totalWounds % healthPerModel.
+// If modelCount == 0, set floatingDamage = 0.
+// If you want, I can update the function to address all these issues for you
+
+
 void battleSequence(Unit attacker, Unit &defender) {
     for (const auto &weapon : attacker.weapons) {
         AttackSummary attackResult = resolveAttack(weapon, defender);
@@ -259,3 +295,4 @@ int main() {
 
     return 0;
 }
+

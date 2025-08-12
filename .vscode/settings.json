@@ -78,5 +78,5 @@
     "xtree": "cpp",
     "xutility": "cpp"
   },
-  "editor.defaultFormatter": "xaver.clang-format"
+  "editor.defaultFormatter": "ms-vscode.cpptools"
 }

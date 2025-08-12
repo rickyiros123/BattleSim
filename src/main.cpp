@@ -216,7 +216,7 @@ int main() {
     std::srand(static_cast<unsigned int>(std::time(nullptr))); // Seed RNG
 
     // Example faction names matching your JSON files (use actual names you have)
-    std::string attackerFactionName = "Seraphon";
+    std::string attackerFactionName = "seraphon";
     std::string defenderFactionName = "ossiarch_bonereapers";
 
     // Load factions from JSON

@@ -110,7 +110,6 @@ RollResult roll_dice(int numberOfDice, int numberOfSides, int desiredRoll, int c
     std::uniform_int_distribution<int> dist(1, numberOfSides); //
     for (int i = 0; i < numberOfDice; i++) {
         int roll = dist(rng);
-        cout << "Rolled: " << roll << endl;
         if (roll >= desiredRoll) {
             rollResult.successfulRolls++;
         }

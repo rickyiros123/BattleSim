@@ -1,5 +1,5 @@
-#include <cstdlib>
-#include <ctime>
+
+#include <random>
 #include <fstream>
 #include <iostream>
 #include <vector>
@@ -10,8 +10,8 @@ using namespace std;
 using json = nlohmann::json;
 
 struct RollResult {
-    int successfulRolls;
-    int crits;
+    int successfulRolls = 0;
+    int crits = 0;
 };
 
 struct AttackSummary {
@@ -19,8 +19,8 @@ struct AttackSummary {
     RollResult woundResult;
     RollResult saveResult;
     RollResult wardSaveResult;
-    int woundsInflicted;
-    int modelsLost;
+    int woundsInflicted = 0;
+    int modelsLost = 0;
 };
 
 struct Weapon {
@@ -36,7 +36,26 @@ class Unit {
     vector<string> keywords;
     string unitName;
 };
-
+void printUnitStats(const Unit& unit) {
+    std::cout << "Unit Name: " << unit.unitName << "\n";
+    std::cout << "Model Count: " << unit.modelCount << "\n";
+    std::cout << "Health Per Model: " << unit.healthPerModel << "\n";
+    std::cout << "Save: " << unit.save << "\n";
+    std::cout << "Ward: " << unit.ward << "\n";
+    std::cout << "Floating Damage: " << unit.floatingDamage << "\n";
+    std::cout << "Keywords: ";
+    for (const auto& k : unit.keywords) {
+        std::cout << k << " ";
+    }
+    std::cout << "\nWeapons:" << std::endl;
+    for (const auto& w : unit.weapons) {
+        std::cout << "  - " << w.weaponName << ": Attacks=" << w.numberOfAttacks
+                  << ", To Hit=" << w.toHit << ", To Wound=" << w.toWound
+                  << ", Rend=" << w.rend << ", Damage=" << w.weaponDamage
+                  << ", Range=" << w.range << std::endl;
+    }
+    std::cout << std::endl;
+}
 Unit::Unit(int modelCount, int healthPerModel, int floatingDamage, int save, int ward, vector<Weapon> weapons, vector<string> keywords, std::string unitName) {
     this->modelCount = modelCount;
     this->healthPerModel = healthPerModel;
@@ -86,9 +105,12 @@ void Faction::populateFaction(const json &factionData, vector<Unit> &units) {
 
 RollResult roll_dice(int numberOfDice, int numberOfSides, int desiredRoll, int critValue) {
     RollResult rollResult{0, 0};
+    static std::random_device rd;
+    static std::mt19937 rng(rd());
+    std::uniform_int_distribution<int> dist(1, numberOfSides); //
     for (int i = 0; i < numberOfDice; i++) {
-        int roll = 0;
-        roll = (std::rand() % numberOfSides) + 1;
+        int roll = dist(rng);
+        cout << "Rolled: " << roll << endl;
         if (roll >= desiredRoll) {
             rollResult.successfulRolls++;
         }
@@ -99,10 +121,10 @@ RollResult roll_dice(int numberOfDice, int numberOfSides, int desiredRoll, int c
     return rollResult;
 }
 
-AttackSummary resolveAttack(Weapon attackingWeapon, Unit &defender) {
+AttackSummary resolveAttack(const Unit &attacker, Weapon attackingWeapon, Unit &defender) {
     AttackSummary summary;
 
-    summary.hitResult = roll_dice(attackingWeapon.numberOfAttacks, 6, attackingWeapon.toHit, 6);
+    summary.hitResult = roll_dice(attackingWeapon.numberOfAttacks * attacker.modelCount, 6, attackingWeapon.toHit, 6);
     summary.woundResult = roll_dice(summary.hitResult.successfulRolls, 6, attackingWeapon.toWound, 6);
     summary.saveResult = roll_dice(summary.woundResult.successfulRolls, 6, defender.save, 6);
 
@@ -113,55 +135,19 @@ AttackSummary resolveAttack(Weapon attackingWeapon, Unit &defender) {
         summary.woundsInflicted -= summary.wardSaveResult.successfulRolls;
     }
 
-    // Apply woundsInflicted to defender's health and model count
-    while (summary.woundsInflicted >= defender.healthPerModel && defender.modelCount) {
-        defender.modelCount -= (summary.woundsInflicted / defender.healthPerModel);
-        summary.woundsInflicted -= defender.healthPerModel;
+    defender.floatingDamage = defender.floatingDamage + summary.woundsInflicted;
+    while(defender.floatingDamage >= defender.healthPerModel && defender.modelCount > 0) {
+        defender.modelCount--;
+        defender.floatingDamage -= defender.healthPerModel;
     }
-    defender.floatingDamage -= summary.woundsInflicted;
+
 
     return summary;
 }
 
-// Here’s a detailed review of your function’s logic, including potential issues and improvements:
-
-// Dice Roll Sequence:
-// You roll to hit, then to wound (using successful hits), then to save (using successful wounds). This is correct for most wargame systems.
-// Wounds Inflicted Calculation:
-// summary.woundsInflicted = summary.woundResult.successfulRolls - summary.saveResult.successfulRolls;
-// This is correct: wounds that are not saved go through.
-// Ward Save:
-// If defender.ward > 0, you roll ward saves for woundsInflicted and subtract successful ward saves.
-// This is correct, but you should check for negative woundsInflicted after this subtraction.
-// Model Reduction Logic:
-// The while loop and defender.modelCount -= (summary.woundsInflicted / defender.healthPerModel); is problematic:
-// If woundsInflicted < healthPerModel, this subtracts zero models, and the leftover wounds are not tracked as floating damage.
-// The loop and subtraction logic can result in incorrect model reduction if woundsInflicted is not a multiple of healthPerModel.
-// summary.woundsInflicted -= defender.healthPerModel; inside the loop is not correct if you’re subtracting multiple models at once.
-// Floating Damage:
-// defender.floatingDamage -= summary.woundsInflicted; is not correct. Floating damage should accumulate leftover wounds that don’t kill a model, not subtract from a pool.
-// Negative Values:
-// There are no checks to prevent negative woundsInflicted, modelCount, or floatingDamage.
-// No Handling for Overkill:
-// If woundsInflicted is very high, modelCount could go negative.
-// Summary of Issues:
-
-// Model reduction and floating damage logic is not robust.
-// Negative values are possible.
-// Overkill is not handled.
-// Recommendation:
-
-// After all saves, calculate total wounds to apply: woundsInflicted + floatingDamage.
-// Calculate models lost: modelsLost = totalWounds / healthPerModel.
-// Update modelCount: subtract modelsLost, clamp to zero.
-// Update floatingDamage: floatingDamage = totalWounds % healthPerModel.
-// If modelCount == 0, set floatingDamage = 0.
-// If you want, I can update the function to address all these issues for you
-
-
 void battleSequence(Unit attacker, Unit &defender) {
     for (const auto &weapon : attacker.weapons) {
-        AttackSummary attackResult = resolveAttack(weapon, defender);
+        AttackSummary attackResult = resolveAttack(attacker, weapon, defender);
         // Update defender with attackResult
         if (defender.modelCount == 0) {
             // Defender is defeated
@@ -191,62 +177,6 @@ json loadJsonFiles(std::string &factionName) {
 
     return factionData;
 }
-
-
-
-// int main() {
-//     std::srand(static_cast<unsigned int>(std::time(nullptr)));  // Seed RNG
-//     std::string yourFaction = "";
-//     std::string opponentFaction = "";
-//     json attackerfaction;
-//     json opponentFactionData;
-
-//     while (attackerfaction.empty()) {
-//         cout << "Enter the attckers faction name: ";
-//         getline(std::cin, yourFaction);
-//         attackerfaction = loadJsonFiles(yourFaction);
-//         cout << endl;
-//         cout << "What is the attacking unit" << endl;
-
-//     }
-
-//     while (opponentFactionData.empty()) {
-//         cout << "Enter your opponent's faction name: ";
-//         getline(std::cin, opponentFaction);
-//         opponentFactionData = loadJsonFiles(opponentFaction);
-//         cout << endl;
-//     }
-
-//     int input;
-//     while(input != 3){
-//         cout << "======Welcome to the Battle Sim======" << endl;
-//         cout << "What would you like to do?" << endl;
-//         cout << "1. Set up an battle." << endl;
-//         cout << "2. Make two units fight" << endl;
-//         cout << "3. Close program" << endl;
-//         switch (input){
-//             case 1: 
-//                 cout << "Set up battle place holder" << endl;
-//                 break;
-//             case 2:
-//                 cout << "Make two units fight place holder" << endl;
-//                 break;
-//             case 3: 
-//                 cout << "Close programer placeholder" << endl;
-//                 break;
-//             default:
-//                 cout << "Invalid optio, try again" << endl;
-//                 break;
-//         }
-//     }
-
-
-//     return 0;
-// }
-
-
-// Assuming all your structs, classes, and functions like Unit, Weapon, Faction,
-// roll_dice, resolveAttack, battleSequence, and loadJsonFiles are already defined.
 
 int main() {
     std::srand(static_cast<unsigned int>(std::time(nullptr))); // Seed RNG
@@ -282,6 +212,8 @@ int main() {
     }
     Unit attacker = attackerUnits[0];
     Unit defender = defenderUnits[0];
+
+
 
     std::cout << "Starting battle: " << attacker.unitName << " vs " << defender.unitName << "\n";
 

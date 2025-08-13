@@ -28,7 +28,7 @@
           "toHit": 3,
           "toWound": 3,
           "rend": 1,
-          "weaponDamage": 1
+          "weaponDamage": 5
         }
       ],
       "specialRules": ["Ordered Cohorts"]

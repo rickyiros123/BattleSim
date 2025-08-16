@@ -1,7 +1,8 @@
 
-#include <random>
+#include <chrono>
 #include <fstream>
 #include <iostream>
+#include <random>
 #include <vector>
 
 #include "json.hpp"
@@ -28,15 +29,16 @@ struct Weapon {
     string weaponName;
 };
 
-class Unit {                                                     
-   public:                            
-    Unit(int modelCount, int healthPerModel, int floatingDamage, int save, int ward, vector<Weapon> weapons, vector<string> keywords, std::string unitName);                           
-    int modelCount, healthPerModel, floatingDamage, save, ward;  
+class Unit {
+   public:
+    Unit(int modelCount, int healthPerModel, int floatingDamage, int save, int ward,
+         vector<Weapon> weapons, vector<string> keywords, std::string unitName);
+    int modelCount, healthPerModel, floatingDamage, save, ward;
     vector<Weapon> weapons;
     vector<string> keywords;
     string unitName;
 };
-void printUnitStats(const Unit& unit) {
+void printUnitStats(const Unit &unit) {
     std::cout << "Unit Name: " << unit.unitName << "\n";
     std::cout << "Model Count: " << unit.modelCount << "\n";
     std::cout << "Health Per Model: " << unit.healthPerModel << "\n";
@@ -44,19 +46,19 @@ void printUnitStats(const Unit& unit) {
     std::cout << "Ward: " << unit.ward << "\n";
     std::cout << "Floating Damage: " << unit.floatingDamage << "\n";
     std::cout << "Keywords: ";
-    for (const auto& k : unit.keywords) {
+    for (const auto &k : unit.keywords) {
         std::cout << k << " ";
     }
     std::cout << "\nWeapons:" << std::endl;
-    for (const auto& w : unit.weapons) {
+    for (const auto &w : unit.weapons) {
         std::cout << "  - " << w.weaponName << ": Attacks=" << w.numberOfAttacks
-                  << ", To Hit=" << w.toHit << ", To Wound=" << w.toWound
-                  << ", Rend=" << w.rend << ", Damage=" << w.weaponDamage
-                  << ", Range=" << w.range << std::endl;
+                  << ", To Hit=" << w.toHit << ", To Wound=" << w.toWound << ", Rend=" << w.rend
+                  << ", Damage=" << w.weaponDamage << ", Range=" << w.range << std::endl;
     }
     std::cout << std::endl;
 }
-Unit::Unit(int modelCount, int healthPerModel, int floatingDamage, int save, int ward, vector<Weapon> weapons, vector<string> keywords, std::string unitName) {
+Unit::Unit(int modelCount, int healthPerModel, int floatingDamage, int save, int ward,
+           vector<Weapon> weapons, vector<string> keywords, std::string unitName) {
     this->modelCount = modelCount;
     this->healthPerModel = healthPerModel;
     this->floatingDamage = floatingDamage;
@@ -67,9 +69,8 @@ Unit::Unit(int modelCount, int healthPerModel, int floatingDamage, int save, int
     this->unitName = unitName;
 }
 
-
-class Faction{
-    public:
+class Faction {
+   public:
     void populateFaction(const json &factionData, vector<Unit> &units);
     vector<Unit> units;
 };
@@ -82,7 +83,7 @@ void Faction::populateFaction(const json &factionData, vector<Unit> &units) {
         int save = unit["save"].get<int>();
         int ward = unit["ward"].get<int>();
         vector<Weapon> weapons;
-        for (const auto& w : unit["weapons"]) {
+        for (const auto &w : unit["weapons"]) {
             Weapon weapon;
             weapon.numberOfAttacks = w["numberOfAttacks"].get<int>();
             weapon.toHit = w["toHit"].get<int>();
@@ -94,20 +95,23 @@ void Faction::populateFaction(const json &factionData, vector<Unit> &units) {
             weapons.push_back(weapon);
         }
         vector<string> keywords;
-        for(const auto& keyword: unit["keywords"]){
+        for (const auto &keyword : unit["keywords"]) {
             keywords.push_back(keyword);
         }
         string unitName = unit["unitName"];
-        Unit unitToAdd(modelCount, healthPerModel, floatingDamage, save, ward, weapons, keywords, unitName);
+        Unit unitToAdd(modelCount, healthPerModel, floatingDamage, save, ward, weapons, keywords,
+                       unitName);
         units.push_back(unitToAdd);
     }
 }
 
 RollResult roll_dice(int numberOfDice, int numberOfSides, int desiredRoll, int critValue) {
     RollResult rollResult{0, 0};
-    static std::random_device rd;
-    static std::mt19937 rng(rd());
-    std::uniform_int_distribution<int> dist(1, numberOfSides); //
+
+    static std::mt19937 rng(static_cast<unsigned int>(
+        std::chrono::high_resolution_clock::now().time_since_epoch().count()));
+
+    std::uniform_int_distribution<int> dist(1, numberOfSides);
     for (int i = 0; i < numberOfDice; i++) {
         int roll = dist(rng);
         if (roll >= desiredRoll) {
@@ -123,11 +127,14 @@ RollResult roll_dice(int numberOfDice, int numberOfSides, int desiredRoll, int c
 AttackSummary resolveAttack(const Unit &attacker, Weapon attackingWeapon, Unit &defender) {
     AttackSummary summary;
 
-    summary.hitResult = roll_dice(attackingWeapon.numberOfAttacks * attacker.modelCount, 6, attackingWeapon.toHit, 6);
-    summary.woundResult = roll_dice(summary.hitResult.successfulRolls, 6, attackingWeapon.toWound, 6);
+    summary.hitResult = roll_dice(attackingWeapon.numberOfAttacks * attacker.modelCount, 6,
+                                  attackingWeapon.toHit, 6);
+    summary.woundResult =
+        roll_dice(summary.hitResult.successfulRolls, 6, attackingWeapon.toWound, 6);
     summary.saveResult = roll_dice(summary.woundResult.successfulRolls, 6, defender.save, 6);
 
-    summary.woundsInflicted = summary.woundResult.successfulRolls - summary.saveResult.successfulRolls;
+    summary.woundsInflicted =
+        summary.woundResult.successfulRolls - summary.saveResult.successfulRolls;
 
     if (defender.ward > 0) {
         summary.wardSaveResult = roll_dice(summary.woundsInflicted, 6, defender.ward, 6);
@@ -135,11 +142,10 @@ AttackSummary resolveAttack(const Unit &attacker, Weapon attackingWeapon, Unit &
     }
 
     defender.floatingDamage = defender.floatingDamage + summary.woundsInflicted;
-    while(defender.floatingDamage >= defender.healthPerModel && defender.modelCount > 0) {
+    while (defender.floatingDamage >= defender.healthPerModel && defender.modelCount > 0) {
         defender.modelCount--;
         defender.floatingDamage -= defender.healthPerModel;
     }
-
 
     return summary;
 }
@@ -158,10 +164,10 @@ void battleSequence(Unit attacker, Unit &defender) {
 
 json loadJsonFiles(std::string &factionName) {
     cout << "Loading faction: " << factionName << endl;
-    for(char &c : factionName){
+    for (char &c : factionName) {
         c = tolower(c);
-        
-        if(c == ' '){
+
+        if (c == ' ') {
             c = '_';
         }
     }
@@ -178,7 +184,9 @@ json loadJsonFiles(std::string &factionName) {
 }
 
 int main() {
-    std::srand(static_cast<unsigned int>(std::time(nullptr))); // Seed RNG
+    std::srand(static_cast<unsigned int>(
+        std::chrono::high_resolution_clock::now().time_since_epoch().count()));
+    // Seed RNG
 
     // Example faction names matching your JSON files (use actual names you have)
     std::string attackerFactionName = "seraphon";
@@ -211,8 +219,6 @@ int main() {
     }
     Unit attacker = attackerUnits[0];
     Unit defender = defenderUnits[0];
-
-
 
     std::cout << "Starting battle: " << attacker.unitName << " vs " << defender.unitName << "\n";
 

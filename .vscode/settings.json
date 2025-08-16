@@ -76,7 +76,12 @@
     "xmemory": "cpp",
     "xtr1common": "cpp",
     "xtree": "cpp",
-    "xutility": "cpp"
+    "xutility": "cpp",
+    "mutex": "cpp",
+    "random": "cpp",
+    "stop_token": "cpp",
+    "thread": "cpp",
+    "xstddef": "cpp"
   },
   "editor.defaultFormatter": "ms-vscode.cpptools"
 }

@@ -224,6 +224,7 @@ int main() {
     std::cout << defender.unitName << " has " << defender.modelCount << " models remaining.\n";
     std::cout << "Floating damage: " << defender.floatingDamage << "\n";
 
+    // /g++ src\main.cpp -g -I include -o battle-sim
+
     return 0;
 }
-

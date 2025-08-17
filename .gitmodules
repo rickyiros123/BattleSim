@@ -1,0 +1,3 @@
+[submodule "tools/tools/age-of-sigmar-4th"]
+	path = tools/tools/age-of-sigmar-4th
+	url = https://github.com/BSData/age-of-sigmar-4th.git

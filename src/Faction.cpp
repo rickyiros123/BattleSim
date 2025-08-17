@@ -2,7 +2,8 @@
 
 #include <fstream>
 
-void Faction::populateFaction(const json &factionData, std::vector<Unit> &units) {
+void Faction::populateFaction(const json &factionData, std::unordered_map<int, Unit> &units) {
+    int unitId = 0; // Initialize unit ID for unique identification
     for (const auto &unit : factionData["units"]) {
         int modelCount = unit["modelCount"].get<int>();
         int healthPerModel = unit["healthPerModel"].get<int>();
@@ -27,7 +28,8 @@ void Faction::populateFaction(const json &factionData, std::vector<Unit> &units)
         }
         std::string unitName = unit["unitName"];
         Unit unitToAdd(modelCount, healthPerModel, floatingDamage, save, ward, weapons, keywords, unitName);
-        units.push_back(unitToAdd);
+        units[unitId] = unitToAdd; 
+        unitId++;
     }
 }
 

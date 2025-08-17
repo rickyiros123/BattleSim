@@ -11,6 +11,8 @@ Unit::Unit(int modelCount, int healthPerModel, int floatingDamage, int save, int
     this->unitName = unitName;
 }
 
+Unit::Unit() : modelCount(0), healthPerModel(0), floatingDamage(0), save(0), ward(0) {}
+
 void printUnitStats(const Unit &unit) {
     std::cout << "Unit Name: " << unit.unitName << "\n";
     std::cout << "Model Count: " << unit.modelCount << "\n";
@@ -28,3 +30,5 @@ void printUnitStats(const Unit &unit) {
     }
     std::cout << std::endl;
 }
+
+

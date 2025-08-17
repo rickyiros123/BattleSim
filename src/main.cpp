@@ -96,7 +96,7 @@ int main() {
                                      "and are correct.\n";
                         return 1;
                     }
-                    std::vector<Unit> faction1Units;
+                    std::unordered_map <int, Unit> faction1Units;
                     Faction faction1;
                     faction1.populateFaction(faction1Json, faction1Units);
                     if (faction1Units.empty()) {
@@ -105,7 +105,7 @@ int main() {
                     }
                     std::cout << "Choose a unit." << std::endl;
                     for (const auto &unit : faction1Units) {
-                        std::cout << unit.unitName << std::endl;
+                        std::cout << unit.second.unitName << std::endl;
                     }
                 } else if (faction1 == 2) {
                     std::string faction1Name = "seraphon";
@@ -115,7 +115,7 @@ int main() {
                                      "and are correct.\n";
                         return 1;
                     }
-                    std::vector<Unit> faction1Units;
+                    std::unordered_map<int, Unit>faction1Units;
                     Faction faction1;
                     faction1.populateFaction(faction1Json, faction1Units);
                     if (faction1Units.empty()) {
@@ -124,7 +124,7 @@ int main() {
                     }
                     std::cout << "Choose a unit." << std::endl;
                     for (const auto &unit : faction1Units) {
-                        std::cout << unit.unitName << std::endl;
+                        std::cout << unit.second.unitName << std::endl;
                     }
                 }
                 break;

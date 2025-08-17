@@ -7,8 +7,8 @@ using json = nlohmann::json;
 
 class Faction {
    public:
-    void populateFaction(const json &factionData, std::vector<Unit> &units);
-    std::vector<Unit> units;
+void populateFaction(const json &factionData, std::unordered_map<int, Unit> &units);    
+std::vector<Unit> units;
 };
 
 json loadJsonFiles(std::string &factionName);

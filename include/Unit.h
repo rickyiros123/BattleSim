@@ -10,6 +10,7 @@ struct Weapon {
 class Unit {
    public:
     Unit(int modelCount, int healthPerModel, int floatingDamage, int save, int ward, std::vector<Weapon> weapons, std::vector<std::string> keywords, std::string unitName);
+    Unit();
     int modelCount, healthPerModel, floatingDamage, save, ward;
     std::vector<Weapon> weapons;
     std::vector<std::string> keywords;

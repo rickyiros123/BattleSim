@@ -56,22 +56,39 @@ Select option 'a' to choose factions and units for battle. Unit and faction data
 
 ---
 
+
 ## Managing Factions and Units
 
 - Faction and unit data is stored in JSON files under `data/factions/` (e.g., `seraphon.json`, `ossiarch_bonereapers.json`).
 - To add new factions or units, create or edit these JSON files. No code changes required!
 
+### Automated Unit Stat Population
+
+This project now includes a git submodule: [BSData/age-of-sigmar-4th](https://github.com/BSData/age-of-sigmar-4th) in `tools/age-of-sigmar-4th/`.
+
+You can use the `.cat` and `.gst` files from this submodule to help populate your unit stats and faction data. These files are maintained by the community and contain up-to-date information for all Age of Sigmar factions and units.
+
+#### How to Use:
+
+1. After cloning the repository, initialize and update submodules:
+    ```bash
+    git submodule update --init --recursive
+    ```
+2. Explore the `tools/age-of-sigmar-4th/` directory for faction/unit data files.
+3. Use these files to help populate your own JSON files in `data/factions/`.
+4. Optionally, write scripts to automate conversion from `.cat` files to your JSON schema.
+
 Example unit entry:
 ```json
 {
-  "unitName": "Saurus Warrior",
-  "modelCount": 10,
-  "healthPerModel": 2,
-  "floatingDamage": 0,
-  "save": 4,
-  "ward": 0,
-  "weapons": [ ... ],
-  "keywords": ["Seraphon", "Warrior"]
+   "unitName": "Saurus Warrior",
+   "modelCount": 10,
+   "healthPerModel": 2,
+   "floatingDamage": 0,
+   "save": 4,
+   "ward": 0,
+   "weapons": [ ... ],
+   "keywords": ["Seraphon", "Warrior"]
 }
 ```
 

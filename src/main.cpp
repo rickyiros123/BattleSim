@@ -82,11 +82,14 @@ int main() {
         std::cin >> choice;
         switch (choice) {
             case 'a':
+                std::cout << "\n===========================================" << std::endl;
                 std::cout << "Option A: Make 2 units fight eachother!\n" << std::endl;
                 std::cout << "Let's get started! We'll need 2 factoins to start off." << std::endl;
                 std::cout << "Choose from this list, enter digit next to faciton." << std::endl;
                 std::cout << "1. Ossiarch Bonereapers" << std::endl;
                 std::cout << "2. Seraphon" << std::endl;
+                std::cout << "-----------------------------\n";
+                std::cout << "Enter choice (1 or 2): ";
                 std::cin >> faction1;
                 if (faction1 == 1) {
                     std::string faction1Name = "ossiarch_bonereapers";  // fixed typo
@@ -96,7 +99,7 @@ int main() {
                                      "and are correct.\n";
                         return 1;
                     }
-                    std::unordered_map <int, Unit> faction1Units;
+                    std::unordered_map<int, Unit> faction1Units;
                     Faction faction1;
                     faction1.populateFaction(faction1Json, faction1Units);
                     if (faction1Units.empty()) {
@@ -115,7 +118,7 @@ int main() {
                                      "and are correct.\n";
                         return 1;
                     }
-                    std::unordered_map<int, Unit>faction1Units;
+                    std::unordered_map<int, Unit> faction1Units;
                     Faction faction1;
                     faction1.populateFaction(faction1Json, faction1Units);
                     if (faction1Units.empty()) {

@@ -83,5 +83,6 @@
     "thread": "cpp",
     "xstddef": "cpp"
   },
-  "editor.defaultFormatter": "ms-vscode.cpptools"
+  "editor.defaultFormatter": "ms-vscode.cpptools",
+  "makefile.configureOnOpen": false
 }

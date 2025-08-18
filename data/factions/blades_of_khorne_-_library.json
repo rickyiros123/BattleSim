@@ -1,0 +1,1183 @@
+{
+    "faction": "Blades of Khorne - Library",
+    "units": [
+        {
+            "unitName": "Skull Cannon",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Burning Skulls",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 15
+                },
+                {
+                    "weaponName": "Gnashing Maw",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Hellblades",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Skarbrand",
+            "modelCount": 1,
+            "healthPerModel": 16,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Slaughter",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 4,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Carnage",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 8,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Wrath of Khorne Bloodthirster",
+            "modelCount": 1,
+            "healthPerModel": 16,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Mighty Axe of Khorne and Bloodflail",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 4,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Hellfire Breath",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 8
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Bloodthirster of Insensate Rage",
+            "modelCount": 1,
+            "healthPerModel": 16,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Great Axe of Khorne",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 5,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Lord of Khorne on Juggernaut",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Wrathforged Axe",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Juggernaut's Brazen Hooves",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Wrathforged Axe",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Juggernaut's Brazen Hooves",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Karanak",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Savage Maws and Goreslick Claws",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Wrathmongers",
+            "modelCount": 4,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Wrath-flails",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Bloodthirster of Unfettered Fury",
+            "modelCount": 1,
+            "healthPerModel": 16,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Mighty Axe of Khorne",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 4,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Lash of Khorne",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 8
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Bloodmaster, Herald of Khorne",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Blade of Blood",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Claws of Karanak",
+            "modelCount": 7,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Weapons of the Hunt",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Bloodreavers",
+            "modelCount": 7,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Reaver Blades and Axes",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Skarr Bloodwrath",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "The Bloodstorm Blades",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Flesh Hounds",
+            "modelCount": 4,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Blood-dark Claws",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Herald of Khorne on Blood Throne",
+            "modelCount": 1,
+            "healthPerModel": 10,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Blade of Blood and Hellblades",
+                    "numberOfAttacks": 7,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Realmgore Ritualist",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Ritual Athame",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Mighty Lord of Khorne",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Axe of Khorne",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Flesh Hound's Blood-dark Claws",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Skullmaster, Herald of Khorne",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Blade of Blood",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Juggernaut's Brazen Hooves",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Skulltaker",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "The Slayer Sword",
+                    "numberOfAttacks": 6,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Bloodsecrator",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Ensorcelled Axe",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Slaughterpriest",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Bloodbathed Weapon",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Skullgrinder",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Brazen Anvil",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Bloodletters",
+            "modelCount": 7,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Hellblade",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Bloodcrushers",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Bloodcrusher Hellblade",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Juggernaut's Brazen Hooves",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Mighty Skullcrushers",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Gorebathed Glaive or Axe",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Juggernaut's Brazen Hooves",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Skullreapers",
+            "modelCount": 3,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Daemonforged Weapons",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Blood Warriors",
+            "modelCount": 8,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Goreweapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Khorgorath",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Claws and Fangs",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Bloodstoker",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Torture Blade and Blood Whip",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Wrath-axe",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Wrath-axe",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Bleeding Icon",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Hexgorger Skulls",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Stream of Molten Blood",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Skull Altar",
+            "modelCount": 1,
+            "healthPerModel": 10,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Valkia the Bloody",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Slaupnir",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Scyla Anfingrimm",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Brutal Fists",
+                    "numberOfAttacks": 8,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Magore's Fiends",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Goreaxe",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Goreaxe",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Goreaxe",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Blood-dark Claws",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Garrek's Reavers",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Reaver Blades and Axes",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Reaver Blades and Axes",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Reaver Blades and Axes",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Reaver Blades and Axes",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Reaver Blades and Axes",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Gorechosen of Dromm",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Weapons of Wrath",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Weapons of Wrath",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Weapons of Wrath",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Mighty Lord of Khorne (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Axe of Khorne",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Flesh Hound's Blood-dark Claws",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Bloodcrushers (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Bloodcrusher Hellblade",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Juggernaut's Brazen Hooves",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Khul Ascended",
+            "modelCount": 1,
+            "healthPerModel": 10,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Axe of Khorne",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Khorgos Khul",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Axe of Khorne",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Grizzlemaw's Blood-dark Claws",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Deathbringer",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Kingslayer Axe",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        },
+        {
+            "unitName": "Anvil of Apotheosis: Blades of Khorne Hero",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Great Blood-slick Weapon",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Blood-slick Weapon",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Juggernaut's Brass-shod Hooves",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Great Blood-slick Weapon",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Daemon Rider's Hellblades",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Blades of Khorne - Library"
+            ]
+        }
+    ]
+}

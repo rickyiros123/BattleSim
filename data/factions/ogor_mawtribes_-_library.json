@@ -1,0 +1,1167 @@
+{
+    "faction": "Ogor Mawtribes - Library",
+    "units": [
+        {
+            "unitName": "Bloodpelt Hunter",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Skullshatter Crossbow",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 18
+                },
+                {
+                    "weaponName": "Hacker-axe and Meatblade",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Impaling Spear",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D6",
+                    "range": 12
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Kragnos, the End of Empires",
+            "modelCount": 1,
+            "healthPerModel": 18,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "The Dread Mace",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 3,
+                    "weaponDamage": 4,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Tuskbreaker",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Hooves of Wrack and Ruin",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Gnoblar Scraplauncher",
+            "modelCount": 1,
+            "healthPerModel": 9,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Rhinox's Sharp Horns",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Scrappers' Stabbers",
+                    "numberOfAttacks": 7,
+                    "toHit": 5,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Piles of Old Scrap",
+                    "numberOfAttacks": "3D6",
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 24
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Slaughtermaster",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Gnoblars' Implements",
+                    "numberOfAttacks": 3,
+                    "toHit": 5,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Stump Blades",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Butcher",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Butcher's Tools",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Maneaters",
+            "modelCount": 3,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Pistols or Throwing Weapons",
+                    "numberOfAttacks": 1,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 10
+                },
+                {
+                    "weaponName": "Maneater Weapons",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Gnoblars",
+            "modelCount": 19,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Sharp Stuff",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 8
+                },
+                {
+                    "weaponName": "Motley Assortment of Weapons",
+                    "numberOfAttacks": 1,
+                    "toHit": 5,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Icefall Yhetees",
+            "modelCount": 3,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Claws and Ice\u2011encrusted Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Ogor Gluttons",
+            "modelCount": 3,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Glutton Weapons",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Gorger Mawpack",
+            "modelCount": 3,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Clubs, Claws and Jaws",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Thundertusk Beastriders",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Ice Blast",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3+2",
+                    "range": 12
+                },
+                {
+                    "weaponName": "Thundertusk's Colossal Tusks",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 5,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Punches and Kicks",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Harpoon Launcher",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 18
+                },
+                {
+                    "weaponName": "Harpoon Launcher",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 18
+                },
+                {
+                    "weaponName": "Chaintrap",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Chaintrap",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Blood Vulture",
+                    "numberOfAttacks": 1,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 24
+                },
+                {
+                    "weaponName": "Blood Vulture",
+                    "numberOfAttacks": 1,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 24
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Ironblaster",
+            "modelCount": 1,
+            "healthPerModel": 9,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Rhinox's Sharp Horns",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Clubber",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ironblaster Cannon: Big Shot",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3+3",
+                    "range": 18
+                },
+                {
+                    "weaponName": "Ironblaster Cannon: Hail Shot",
+                    "numberOfAttacks": 8,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 12
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Firebelly",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Basalt Hammer",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Fire Breath",
+                    "numberOfAttacks": 6,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 8
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Stonehorn Beastriders",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Stonehorn's Hooves",
+                    "numberOfAttacks": "D6",
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Punches and Kicks",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Stonehorn's Rock-hard Horns",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Harpoon Launcher",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 18
+                },
+                {
+                    "weaponName": "Chaintrap",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Chaintrap",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Blood Vulture",
+                    "numberOfAttacks": 1,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 24
+                },
+                {
+                    "weaponName": "Blood Vulture",
+                    "numberOfAttacks": 1,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 24
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Frostlord on Stonehorn",
+            "modelCount": 1,
+            "healthPerModel": 15,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Stonehorn's Hooves",
+                    "numberOfAttacks": "D6",
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Frost Spear",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Stonehorn's Rock-hard Horns",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Frostlord on Thundertusk",
+            "modelCount": 1,
+            "healthPerModel": 15,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Ice Blast",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3+2",
+                    "range": 12
+                },
+                {
+                    "weaponName": "Frost Spear",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Thundertusk's Colossal Tusks",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 5,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Huskard on Stonehorn",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Stonehorn's Hooves",
+                    "numberOfAttacks": "D6",
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Punches and Kicks",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Stonehorn's Rock-hard Horns",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Harpoon Launcher",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 18
+                },
+                {
+                    "weaponName": "Chaintrap",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Chaintrap",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Blood Vulture",
+                    "numberOfAttacks": 1,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 24
+                },
+                {
+                    "weaponName": "Blood Vulture",
+                    "numberOfAttacks": 1,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 24
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Huskard on Thundertusk",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Ice Blast",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3+2",
+                    "range": 12
+                },
+                {
+                    "weaponName": "Thundertusk's Colossal Tusks",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 5,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Punches and Kicks",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Harpoon Launcher",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 18
+                },
+                {
+                    "weaponName": "Chaintrap",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Chaintrap",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Blood Vulture",
+                    "numberOfAttacks": 1,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 24
+                },
+                {
+                    "weaponName": "Blood Vulture",
+                    "numberOfAttacks": 1,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 24
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Tyrant",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Thundermace",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Beastskewer Glaive",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ogor Pistols",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 10
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Frost Sabres",
+            "modelCount": 2,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Tusks and Claws",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Leadbelchers",
+            "modelCount": 3,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Leadbelcher Gun",
+                    "numberOfAttacks": "D3",
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 15
+                },
+                {
+                    "weaponName": "Bludgeoning Blows",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Icebrow Hunter",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Culling Club",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Hunter's Crossbow",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 12
+                },
+                {
+                    "weaponName": "Great Throwing Spear",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 10
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Mournfang Pack",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Mournfang Rider Weapon",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Mournfang's Tusks",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ironlock Pistol",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 10
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Mawpit",
+            "modelCount": 1,
+            "healthPerModel": 10,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Great Mawpot",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Ironguts",
+            "modelCount": 1,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Irongut Weapon",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Hrothgorn Mantrapper",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Trap Launcher",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 12
+                },
+                {
+                    "weaponName": "Hunting Knife",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Gorlok Blackpowder",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Grunderbuss",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 12
+                },
+                {
+                    "weaponName": "Great Cutlass",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Ironblaster (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Rhinox's Sharp Horns",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Clubber",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ironblaster Cannon",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 5,
+                    "range": 18
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        },
+        {
+            "unitName": "Gnoblar Scraplauncher (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Rhinox's Sharp Horns and Crew's Weapons",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Scrap Lobber",
+                    "numberOfAttacks": 12,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 18
+                }
+            ],
+            "keywords": [
+                "Ogor Mawtribes - Library"
+            ]
+        }
+    ]
+}

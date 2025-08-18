@@ -1,0 +1,359 @@
+{
+    "faction": "Bonesplitterz - Library",
+    "units": [
+        {
+            "unitName": "Wardokk",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Bonebeast Stikk",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Bonesplitterz - Library"
+            ]
+        },
+        {
+            "unitName": "Wurrgog Prophet",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Wurrgog Staff",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Deadly Green Bolts",
+                    "numberOfAttacks": "D6",
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 10
+                }
+            ],
+            "keywords": [
+                "Bonesplitterz - Library"
+            ]
+        },
+        {
+            "unitName": "Savage Big Boss",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Boss Chompa",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Bonesplitterz - Library"
+            ]
+        },
+        {
+            "unitName": "Maniak Weirdnob",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Bonebeast Staff",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "War Boar's Tusks and Hooves",
+                    "numberOfAttacks": 2,
+                    "toHit": 5,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Bonesplitterz - Library"
+            ]
+        },
+        {
+            "unitName": "Savage Boarboy Maniaks",
+            "modelCount": 2,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Chompas",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "War Boar's Tusks and Hooves",
+                    "numberOfAttacks": 2,
+                    "toHit": 5,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Bonesplitterz - Library"
+            ]
+        },
+        {
+            "unitName": "Savage Orruk Arrowboys",
+            "modelCount": 7,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Stinga Bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 5,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 15
+                },
+                {
+                    "weaponName": "Paired Savage Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Bonesplitterz - Library"
+            ]
+        },
+        {
+            "unitName": "Savage Big Stabbas",
+            "modelCount": 2,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Gorktoof",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Bonesplitterz - Library"
+            ]
+        },
+        {
+            "unitName": "Savage Orruks",
+            "modelCount": 7,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Savage Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Bonesplitterz - Library"
+            ]
+        },
+        {
+            "unitName": "Savage Orruk Morboys",
+            "modelCount": 7,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Paired Savage Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Bonesplitterz - Library"
+            ]
+        },
+        {
+            "unitName": "Savage Boarboys",
+            "modelCount": 2,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Boarboy Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "War Boar's Tusks and Hooves",
+                    "numberOfAttacks": 2,
+                    "toHit": 5,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Bonesplitterz - Library"
+            ]
+        },
+        {
+            "unitName": "Hedkrakka's Madmob",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Madmob Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Madmob Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Madmob Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Madmob Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Bonesplitterz - Library"
+            ]
+        },
+        {
+            "unitName": "Kragnos, the End of Empires",
+            "modelCount": 1,
+            "healthPerModel": 18,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "The Dread Mace",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 3,
+                    "weaponDamage": 4,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Tuskbreaker",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Hooves of Wrack and Ruin",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Bonesplitterz - Library"
+            ]
+        }
+    ]
+}

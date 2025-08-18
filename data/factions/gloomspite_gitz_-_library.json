@@ -1,0 +1,2045 @@
+{
+    "faction": "Gloomspite Gitz - Library",
+    "units": [
+        {
+            "unitName": "Dankhold Troggoth",
+            "modelCount": 1,
+            "healthPerModel": 10,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Colossal Boulder Club",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3+3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Rockgut Troggoths",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Throwin' Boulders",
+                    "numberOfAttacks": 1,
+                    "toHit": 5,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 10
+                },
+                {
+                    "weaponName": "Stone Maul or Craggy Hands",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Skragrott the Loonking",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 4,
+            "weapons": [
+                {
+                    "weaponName": "Da Moon Onna Stikk",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Squigboss with Gnasha-squig",
+            "modelCount": 1,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Fang-filled Gob",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Squig-krook",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Mangler Squigs",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Balls and Chains",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Huge Fang-filled Gobs",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D6",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Bashin' Stikks",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Rabble-Rowza",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Bat Squigs",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 12
+                },
+                {
+                    "weaponName": "Moon-sickle and Basha",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Fungoid Cave-Shaman",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Spore Squig's Vicious Teeth",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Moon-sickle",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Webspinner Shaman on Arachnarok Spider",
+            "modelCount": 1,
+            "healthPerModel": 16,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Spider-bows",
+                    "numberOfAttacks": 10,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Crooked Spears",
+                    "numberOfAttacks": 10,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Monstrous Spider Fangs",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Chitinous Legs",
+                    "numberOfAttacks": 8,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Spider God Staff",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Loonboss on Giant Cave Squig",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Massive Fang-filled Gob",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Moon-cutta or Loonboss Stabba",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Squig Herd",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Fang-filled Gob",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Squig Prodder",
+                    "numberOfAttacks": 2,
+                    "toHit": 5,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Moonclan Stabbas",
+            "modelCount": 17,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Stabba",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Gobbapalooza",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Staff, Stikka or Jaggedy Blade",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Loonsmasha Fanatics",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Ball and Chain",
+                    "numberOfAttacks": "D6",
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Boingrot Bounderz",
+            "modelCount": 4,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Fang-filled Gob",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Pokin' Lance",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Moonclan Shootas",
+            "modelCount": 17,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Moonclan Bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Moonclan Bow",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Sporesplatta Fanatics",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Spore-ball and Chain",
+                    "numberOfAttacks": "D3",
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Loonboss on Mangler Squigs",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Balls and Chains",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Huge Fang-filled Gobs",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D6",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Moon-slicer",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Spider Riders",
+            "modelCount": 2,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Spider-bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Spider Fangs",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Crooked Spear",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Squig Hoppers",
+            "modelCount": 9,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Fang-filled Gob",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Slitta",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Kragnos, the End of Empires",
+            "modelCount": 1,
+            "healthPerModel": 18,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "The Dread Mace",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 3,
+                    "weaponDamage": 4,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Tuskbreaker",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Hooves of Wrack and Ruin",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Trugg the Troggoth King",
+            "modelCount": 1,
+            "healthPerModel": 16,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Ironshell Club",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 3,
+                    "weaponDamage": 4,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Mighty Antlers",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3+3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Dankhold Troggboss",
+            "modelCount": 1,
+            "healthPerModel": 12,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Boulder Club",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D6",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Sneaky Snufflers",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Loonfungus Sickle",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Snufflesquig's Gnashers",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Fellwater Troggoths",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Noxious Vomit",
+                    "numberOfAttacks": "D3",
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 1,
+                    "range": 6
+                },
+                {
+                    "weaponName": "Spiked Club",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Snarlfang Riders",
+            "modelCount": 2,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Grot Bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 15
+                },
+                {
+                    "weaponName": "Snarlfang's Slavering Jaws",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Stabbin' Stikka",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Loonboss",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Moon-slicer",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Webspinner Shaman",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Spider God Staff",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Arachnarok Spider with Flinger",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Monstrous Spider Fangs",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Chitinous Legs",
+                    "numberOfAttacks": 8,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Crooked Spears",
+                    "numberOfAttacks": 10,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Spider-bows",
+                    "numberOfAttacks": 10,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Flinger",
+                    "numberOfAttacks": "D3",
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 24
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Arachnarok Spider with Spiderfang Warparty",
+            "modelCount": 1,
+            "healthPerModel": 16,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Spider-bows",
+                    "numberOfAttacks": 10,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Crooked Spears",
+                    "numberOfAttacks": 10,
+                    "toHit": 5,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Monstrous Spider Fangs",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Chitinous Legs",
+                    "numberOfAttacks": 8,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Skitterstrand Arachnarok",
+            "modelCount": 1,
+            "healthPerModel": 13,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Monstrous Spider Fangs",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Chitinous Legs",
+                    "numberOfAttacks": 8,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Scuttletide",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Spider Bites",
+                    "numberOfAttacks": 8,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Mork's Mighty Mushroom",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Malevolent Moon",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Lunarock Slam",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Scrapskuttle's Arachnacauldron",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Spider Legs",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Bad Moon Loonshrine",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Scuttleboss on Gigantic Spider",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Envenomed Spear",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Gigantic Fangs",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Loonboss with Giant Cave Squig",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Moon-prodder",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Massive Fang-filled Gob",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Madcap Shaman",
+            "modelCount": 1,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Moon Staff",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Aleguzzler Gargant",
+            "modelCount": 1,
+            "healthPerModel": 12,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "'Eadbutt",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 4,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Massive Club",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Mighty Kick",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Throwin' Rocks",
+                    "numberOfAttacks": 1,
+                    "toHit": 5,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 12
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Grinkrak's Looncourt",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Moon-slicer",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Looncourt Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Looncourt Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Squigapult",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3+2",
+                    "range": 15
+                },
+                {
+                    "weaponName": "Looncourt Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Looncourt Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Looncourt Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Looncourt Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Looncourt Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Mollog",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Jabbertoad",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 8
+                },
+                {
+                    "weaponName": "Puff-fungus Club",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Jabbertoad",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 8
+                },
+                {
+                    "weaponName": "Puff-fungus Club",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Zarbag's Gitz",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Git Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Git Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Git Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Git Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Git Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Git Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Moonclan Bow",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Moonclan Bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Moonclan Bow",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Moonclan Bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Moonclan Bow",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Moonclan Bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 18
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Rippa's Snarlfangs",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Snarlfang's Slavering Jaws",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Wolfgit Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Snarlfang's Slavering Jaws",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Wolfgit Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Snarlfang's Slavering Jaws",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Wolfgit Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Droggz da Sunchompa",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Jaggedsnarl's Jaws",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Da Metal Toof",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Snarlboss",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Snarlfang's Slavering Jaws",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Boss Loppa",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Frazzlegit Shaman on War-Wheela",
+            "modelCount": 1,
+            "healthPerModel": 9,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Snarlfangs' Frothing Jaws",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Wheela Slicers",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Doom Diver Catapult",
+            "modelCount": 1,
+            "healthPerModel": 12,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Slicers and Krag-smasha's Paws",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Doom Diver",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 3,
+                    "weaponDamage": 3,
+                    "range": 24
+                },
+                {
+                    "weaponName": "Catapult Crew Tools",
+                    "numberOfAttacks": 2,
+                    "toHit": 5,
+                    "toWound": 6,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Wolfgit Retinue",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Grot Bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 15
+                },
+                {
+                    "weaponName": "Snarlfang's Slavering Jaws",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Snarlfang's Slavering Jaws",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Stabbin' Stikka",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Sunsteala Wheelas",
+            "modelCount": 2,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Grot Bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 15
+                },
+                {
+                    "weaponName": "Wheela Slicers and Stabbin' Stikka",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Snarlfangs' Frothing Jaws",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Snarlboss on War-Wheela",
+            "modelCount": 1,
+            "healthPerModel": 9,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Snarlfangs' Frothing Jaws",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Chain Basha",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Wheela Slicers",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Snarlpack Cavalry",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Giant Snarlfang's Jaws",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Pointy Skewas",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Anvil of Apotheosis: Grot Hero",
+            "modelCount": 1,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Boss Weapon",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Snarlfang's Slavering Jaws",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Massive Fang-filled Gob",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Gigantic Fangs",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Huge Fang-filled Gobs",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D6",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Balls and Chains",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Chitinous Legs",
+                    "numberOfAttacks": 8,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Monstrous Spider Fangs",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Rock Flinger",
+                    "numberOfAttacks": 2,
+                    "toHit": 5,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 18
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Anvil of Apotheosis: Troggoth Hero",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Troggoth Club",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3+1",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Chucking Boulder",
+                    "numberOfAttacks": 2,
+                    "toHit": 5,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 10
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Loonsmasha Fanatics (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Ball and Chain",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Sporesplatta Fanatics (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Spore-ball and Chain",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        },
+        {
+            "unitName": "Borgit's Beastgrabbaz",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Borgit's Stabba",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Beastgrabba Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Troggoth Fists",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Beastgrabba Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Beastgrabba Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Gloomspite Gitz - Library"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,916 @@
+{
+    "faction": "Sylvaneth - Library",
+    "units": [
+        {
+            "unitName": "Branchwych",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Swarm of Spites",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Greenwood Scythe and Bittergrub",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Alarielle the Everqueen",
+            "modelCount": 1,
+            "healthPerModel": 16,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Spear of Kurnoth",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Spear of Kurnoth",
+                    "numberOfAttacks": 1,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 4,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Wardroth's Great Antlers",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 4,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "The Lady of Vines",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Kurnotheal's Wrath",
+                    "numberOfAttacks": 1,
+                    "toHit": 2,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D6",
+                    "range": 12
+                },
+                {
+                    "weaponName": "Kurnotheal's Wrath and Lashing Vines",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Drycha Hamadreth",
+            "modelCount": 1,
+            "healthPerModel": 12,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Flitterfuries",
+                    "numberOfAttacks": 10,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Slashing Talons",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Swarm of Squirmlings",
+                    "numberOfAttacks": 10,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Belthanos, First Thorn of Kurnoth",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Kurnoth Glaive",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Carnelian Greatspite's Razor-like Mandibles",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Warsong Revenant",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Spearing Vines and Spirit Falchion",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Arch-Revenant",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Revenant's Glaive and Tail Pincers",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Spirit of Durthu",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Verdant Blast",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Guardian Sword",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 5,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Massive Impaling Talons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Treelord",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Strangleroots",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Sweeping Blows",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Massive Impaling Talons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Treelord Ancient",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Doom Tendril Staff",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 18
+                },
+                {
+                    "weaponName": "Sweeping Blows",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Massive Impaling Talons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Kurnoth Hunters with Kurnoth Greatbows",
+            "modelCount": 2,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Kurnoth Greatbow",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Vicious Claws",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "The Twistweald",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Twistroot Talons",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Warden's Bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Twistroot Talons",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Warden's Bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Twistroot Talons",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Warden's Blade",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Voracious Swarm",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Twistroot Talons",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Spite-Revenants",
+            "modelCount": 4,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Cruel Talons and Fangs",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Spiterider Lancers",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Spiterider Lance",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Sharp Mandibles",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Gossamid Archers",
+            "modelCount": 4,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Gossamid Bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Cruel Talons",
+                    "numberOfAttacks": 1,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Kurnoth Hunters with Kurnoth Greatswords",
+            "modelCount": 2,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Kurnoth Greatsword",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Kurnoth Hunters with Kurnoth Scythes",
+            "modelCount": 2,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Kurnoth Scythe",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Dryads",
+            "modelCount": 9,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Wracking Talons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Revenant Seekers",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Seeker's Sickle",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Sharp Mandibles",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Tree-Revenants",
+            "modelCount": 2,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Protector Glaive and Blade",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Gladewyrm",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Fearsome Mandibles and Bladed Carapace",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Vengeful Skullroot",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Lumbering Bulk",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Spiteswarm Hive",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Awakened Wyldwood",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Ylthari's Guardians",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Enchanted Glade Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Revenant Bow",
+                    "numberOfAttacks": 1,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Revenant Bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Enchanted Glade Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Enchanted Glade Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Skaeth's Wild Hunt",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Tracker Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Wild Hunt Ranged Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Tracker Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Wild Hunt Ranged Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Tracker Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Tracker Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Tracker Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Drycha Hamadreth (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Slashing Talons",
+                    "numberOfAttacks": 10,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        },
+        {
+            "unitName": "Revenant Seekers (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Scourge Sickles",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Sharpened Mandibles",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Sylvaneth - Library"
+            ]
+        }
+    ]
+}

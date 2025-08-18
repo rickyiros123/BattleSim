@@ -1,0 +1,846 @@
+{
+    "faction": "Idoneth Deepkin - Library",
+    "units": [
+        {
+            "unitName": "Lotann, Warden of the Soul Ledgers",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Meloch's Tentacles and Weapons",
+                    "numberOfAttacks": 8,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Eidolon of Mathlann, Aspect of the Storm",
+            "modelCount": 1,
+            "healthPerModel": 12,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Spear of Repressed Fury and Crulhook",
+                    "numberOfAttacks": 7,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Akhelian Allopex",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Barbed Hooks and Blades",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Allopex's Ferocious Bite",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Razorshell Harpoon",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Razorshell Harpoon",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Retarius Net Launcher",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Retarius Net Launcher",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 18
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Eidolon of Mathlann, Aspect of the Sea",
+            "modelCount": 1,
+            "healthPerModel": 12,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Blasts of Abyssal Energy",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 12
+                },
+                {
+                    "weaponName": "Psi-trident and Deep-sea Sceptre",
+                    "numberOfAttacks": 7,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Akhelian King",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Deepmare's Fangs, Talons and Lashing Tails",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Akhelian Royal Weapons",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Volturnos, High King of the Deep",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "The Astra Solus",
+                    "numberOfAttacks": 6,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Uasall's Fangs, Talons and Lashing Tails",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Isharann Tidecaster",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Pelagic Staff",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Isharann Soulscryer",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Abyssal Touch",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Isharann Soulrender",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Rakerdart's Serrated Bill",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Tal\u00fanhook",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Akhelian Ishlaen Guard",
+            "modelCount": 1,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Helsabre",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Fangmora's Fangs and Lashing Tail",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Akhelian Morrsarr Guard",
+            "modelCount": 1,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Voltspear",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Fangmora's Fangs and Lashing Tail",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Akhelian Leviadon",
+            "modelCount": 1,
+            "healthPerModel": 16,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Crew's Spears and Harpoons",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Leviadon's Scythed Fins and Crushing Jaws",
+                    "numberOfAttacks": 7,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Razorshell Harpoon Launchers",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 18
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Akhelian Thrallmaster",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Esoteric Weapons",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Namarti Thralls",
+            "modelCount": 9,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Lanmari",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Namarti Reavers",
+            "modelCount": 9,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Keening Blade",
+                    "numberOfAttacks": 1,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Whisperbow",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 12
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Gloomtide Shipwreck",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Cyreni's Razors",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Lanmari Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Lanmari Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Cephanyr's Tentacles",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Lanmari Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Elathain's Soulraid",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Riptide Harpoon",
+                    "numberOfAttacks": 1,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 8
+                },
+                {
+                    "weaponName": "Soulraid Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Soulraid Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Soulraid Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Soulraid Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Soulraid Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Akhelian Thrallmaster (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Esoteric Weapons",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Namarti Thralls (Scourge of Ghyran)",
+            "modelCount": 9,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Lanmari",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Abyssal Tendril",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Freezing Grasp",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Incarnate of the Deep",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Crushing Maw and Scything Waves",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Ikon of the Sea",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Tidal Glaive",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Mathaela, Oracle of the Abyss",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Riptide Blast",
+                    "numberOfAttacks": 3,
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 18
+                },
+                {
+                    "weaponName": "Staff of the Abyss",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Dark Shoal's Ferocious Bites",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Ikon of the Storm",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Maelstrom Blades",
+                    "numberOfAttacks": 7,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        },
+        {
+            "unitName": "Anvil of Apotheosis: Idoneth Deepkin Hero",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Thassalic Weapon",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Shoal of Zephyrfish",
+                    "numberOfAttacks": 8,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Allopex's Ferocious Bite",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Sea-steed's Fangs",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Mighty Sea-beast's Jaws",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Deep-sea Companion's Bite",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Razorshell Harpoon Launchers",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Crew's Spears and Harpoons",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Idoneth Deepkin - Library"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "faction": "\u06de Regiments of Renown",
+    "units": [
+        {
+            "unitName": "Gotrek Gurnisson",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 3,
+            "weapons": [
+                {
+                    "weaponName": "Zangrom-Thaz",
+                    "numberOfAttacks": 8,
+                    "toHit": 2,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "\u06de Regiments of Renown"
+            ]
+        },
+        {
+            "unitName": "Realmstone Innovator",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Realmstone-enhanced Arsenal",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "\u06de Regiments of Renown"
+            ]
+        },
+        {
+            "unitName": "Warped Saboteur",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Realmstone-enhanced Arsenal",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "\u06de Regiments of Renown"
+            ]
+        },
+        {
+            "unitName": "Sinister Nullifier",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Realmstone-enhanced Arsenal",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "\u06de Regiments of Renown"
+            ]
+        },
+        {
+            "unitName": "Weird-Crafta",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Realmstone-enhanced Arsenal",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "\u06de Regiments of Renown"
+            ]
+        }
+    ]
+}

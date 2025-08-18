@@ -1,0 +1,1073 @@
+{
+    "faction": "Hedonites of Slaanesh - Library",
+    "units": [
+        {
+            "unitName": "Bladebringer, Herald on Exalted Chariot",
+            "modelCount": 1,
+            "healthPerModel": 12,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Steeds' Poisoned Tongues",
+                    "numberOfAttacks": 8,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Flensing Whips and Piercing Claws",
+                    "numberOfAttacks": 12,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Shalaxi Helbane",
+            "modelCount": 1,
+            "healthPerModel": 16,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Impaling Claws",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 4,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Soulpiercer",
+                    "numberOfAttacks": 6,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "The Masque",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 4,
+            "weapons": [
+                {
+                    "weaponName": "Razor-edged Claws",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Sigvald, Prince of Slaanesh",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 4,
+            "weapons": [
+                {
+                    "weaponName": "Shardslash",
+                    "numberOfAttacks": 5,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Dexcessa, Talon of Slaanesh",
+            "modelCount": 1,
+            "healthPerModel": 10,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Impaling Talons",
+                    "numberOfAttacks": 7,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Keeper of Secrets",
+            "modelCount": 1,
+            "healthPerModel": 16,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Impaling Claws",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 4,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Elegant Greatblade",
+                    "numberOfAttacks": 6,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Contorted Epitome",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 4,
+            "weapons": [
+                {
+                    "weaponName": "Piercing Claws and Coiled Tentacles",
+                    "numberOfAttacks": 7,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Syll'Esske, the Vengeful Allegiance",
+            "modelCount": 1,
+            "healthPerModel": 9,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Axe of Dominion",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Scourging Whip",
+                    "numberOfAttacks": 6,
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Shardspeaker of Slaanesh",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Haze Staff",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Shadow-cloaked Claws",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Seeker Chariot",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Flensing Whips and Piercing Claws",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Steeds' Poisoned Tongues",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Hellflayer",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Axle Blades",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Steeds' Poisoned Tongues",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Flensing Whips and Piercing Claws",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Slaangor Fiendbloods",
+            "modelCount": 2,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Razor-sharp Claws and Gilded Weapons",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Seekers",
+            "modelCount": 2,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Agonising Claws",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Steed's Poisoned Tongue",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Blissbarb Archers",
+            "modelCount": 9,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Blissbarb Bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Sybarite Blade",
+                    "numberOfAttacks": 1,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Synessa, the Voice of Slaanesh",
+            "modelCount": 1,
+            "healthPerModel": 10,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Unraveller's Talons",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Staff of Slaanesh",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 18
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Infernal Enrapturess, Herald of Slaanesh",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Heartstring Lyre",
+                    "numberOfAttacks": 2,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 12
+                },
+                {
+                    "weaponName": "Piercing Claw",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Lord of Hubris",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Exquisite Scimitar",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Glutos Orscollion, Lord of Gluttony",
+            "modelCount": 1,
+            "healthPerModel": 18,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Greatblade and Claws",
+                    "numberOfAttacks": 8,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Leerstave of Loth'shar",
+                    "numberOfAttacks": 1,
+                    "toHit": 2,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 6,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Scourge and Dagger",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Blissbarb Seekers",
+            "modelCount": 4,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Seeker Bow",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Exalted Steed's Poisoned Tongue",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Sybarite Blade",
+                    "numberOfAttacks": 1,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Lord of Pain",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Soulpiercer Mace",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Fiends",
+            "modelCount": 2,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Deadly Pincers and Barbed Stinger",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Daemonettes",
+            "modelCount": 7,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Piercing Claws",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Myrmidesh Painbringers",
+            "modelCount": 4,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Wicked Scimitar",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Symbaresh Twinsouls",
+            "modelCount": 4,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Merciless Weapons",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Hellstriders",
+            "modelCount": 2,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Claw-spear or Hellscourge",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Steed's Poisoned Tongue",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Slickblade Seekers",
+            "modelCount": 4,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Slickblade Glaive",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Exalted Steed's Poisoned Tongue",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Mesmerising Mirror",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Dreadful Visage",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Hooked Tongues",
+                    "numberOfAttacks": 8,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Wheels of Excruciation",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Rending Wheels",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Fane of Slaanesh",
+            "modelCount": 1,
+            "healthPerModel": 10,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Exalted Chariot",
+            "modelCount": 1,
+            "healthPerModel": 9,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Flensing Whips and Piercing Claws",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Steeds' Poisoned Tongues",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Bladebringer, Herald on Seeker Chariot",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Flensing Whips and Piercing Claws",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Steeds' Poisoned Tongues",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Bladebringer, Herald on Hellflayer",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Flensing Whips and Piercing Claws",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Axle Blades",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Steeds' Poisoned Tongues",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Viceleader, Herald of Slaanesh",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Ravaging Claws",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "The Thricefold Discord",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Carnal Blades and Wicked Claws",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Carnal Blades and Wicked Claws",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Carnal Blades and Wicked Claws",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "The Dread Pageant",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Weapons of Excess",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Weapons of Excess",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Weapons of Excess",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Weapons of Excess",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Syll'Esske, the Vengeful Allegiance (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Axe of Dominion",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Scourging Whip",
+                    "numberOfAttacks": 6,
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        },
+        {
+            "unitName": "Slaangor Fiendbloods (Scourge of Ghyran)",
+            "modelCount": 2,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Razor-sharp Claws and Gilded Weapons",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Hedonites of Slaanesh - Library"
+            ]
+        }
+    ]
+}

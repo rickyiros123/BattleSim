@@ -1,0 +1,1771 @@
+{
+    "faction": "Soulblight Gravelords - Library",
+    "units": [
+        {
+            "unitName": "Neferata, Mortarch of Blood",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Aken-seth",
+                    "numberOfAttacks": 3,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Akmet-har",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Nagadron's Claws",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 3,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Deathrattle Skeletons",
+            "modelCount": 8,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Ancient Weapon",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Barrow Knights",
+            "modelCount": 2,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Skeletal Steed's Hooves and Teeth",
+                    "numberOfAttacks": 2,
+                    "toHit": 5,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Barrow Lance",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Mortis Engine",
+            "modelCount": 1,
+            "healthPerModel": 12,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Corpsemaster's Staff",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Spectral Host's Blades",
+                    "numberOfAttacks": 10,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Nagash, Supreme Lord of the Undead",
+            "modelCount": 1,
+            "healthPerModel": 18,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Alakanash",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D6",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Zefet-nebtar",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Mannfred von Carstein, Mortarch of Night",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Ashigaroth's Claws",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 3,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Gheistvor",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Radukar the Beast",
+            "modelCount": 1,
+            "healthPerModel": 12,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Blood-slick Claws",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Vyrkos Blood-born's Piercing Blades",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Prince Vhordrai",
+            "modelCount": 1,
+            "healthPerModel": 18,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Shordmaire's Claws",
+                    "numberOfAttacks": 7,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Shordmaire's Maw",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "The Bloodlance",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Shordemaire's Miasma",
+                    "numberOfAttacks": "D6",
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 10
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Ivya Volga, the Outcast",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Heirloom Axe",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Bat Swarm's Needling Fangs",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 12
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Lauka Vai, Mother of Nightmares",
+            "modelCount": 1,
+            "healthPerModel": 11,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Askurga Rapier",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Gore-drenched Talons",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 3,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Belladamma Volga, First of the Vyrkos",
+            "modelCount": 1,
+            "healthPerModel": 9,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Lupine Fangs and Claws",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Timeworn Scimitar",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Gorslav the Gravekeeper",
+            "modelCount": 1,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Gravekeeper's Spade",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Torgillius the Chamberlain",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Familiars' Fangs and Claws",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Necrotising Bolts",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 18
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Watch Captain Halgrim",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Cursed Halberd and Sabre",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Radukar the Wolf",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Vyrkos Barrow-blade",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Vyrkos Blood-born",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Piercing Blade",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Vargskyr",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Lacerating Fangs",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Raking Talons",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Kosargi Nightguard",
+            "modelCount": 1,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Kosargi Bardiche",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Kritza, the Rat Prince",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Gnawblade",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Lady Annika, the Thirsting Blade",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Blade Proboscian",
+                    "numberOfAttacks": 7,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Vengorian Lord",
+            "modelCount": 1,
+            "healthPerModel": 11,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Gore-drenched Talons",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 3,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Nightmare Sabre",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Vampire Lord on Zombie Dragon",
+            "modelCount": 1,
+            "healthPerModel": 16,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Pestilential Breath",
+                    "numberOfAttacks": "D6",
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Dynastic Weapon",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Draconic Maw",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Draconic Claws",
+                    "numberOfAttacks": 7,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Askurgan Trueblades",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Askurgan Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Elongated Claws and Slavering Maw",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Askurgan Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Cado Ezechiar, the Hollow King",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Ezechiarian Greatsword",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Blood Knights",
+            "modelCount": 3,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Nightmare's Hooves and Teeth",
+                    "numberOfAttacks": 3,
+                    "toHit": 5,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Templar Weapon",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Vargheists",
+            "modelCount": 1,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Murderous Fangs and Talons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Vampire Lord",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Dynastic War-relic",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Bloodseeker Palanquin",
+            "modelCount": 1,
+            "healthPerModel": 12,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Sanguinarch's Stiletto",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Spectral Host's Blades",
+                    "numberOfAttacks": 10,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Coven Throne",
+            "modelCount": 1,
+            "healthPerModel": 12,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Acolytes' Poniards",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Matriarch's Stiletto",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Spectral Host's Blades",
+                    "numberOfAttacks": 10,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Terrorgheist",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Death shriek",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D6",
+                    "range": 10
+                },
+                {
+                    "weaponName": "Fanged Maw",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D6",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Skeletal Talons",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Wight King on Skeletal Steed",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "King's Relic Weapon",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Skeletal Steed's Hooves and Teeth",
+                    "numberOfAttacks": 2,
+                    "toHit": 5,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Corpse Cart",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Corpsemaster's Weapon",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Zombies' Rusty Blades",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Barrow Guard",
+            "modelCount": 5,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Wight Blade",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Wight King",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Baleful Tomb Blade",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Necromancer",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Mortis Staff",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Sekhar, Fang of Nulahmia",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Nulahmian Warglaive",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ouboroth's Godhusk Fangs",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Deadwalker Zombies",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Crude Weapon or Infectious Bite",
+                    "numberOfAttacks": 1,
+                    "toHit": 5,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Fell Bats",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Chiropteran Fangs",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Dire Wolves",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Rotting Fangs and Claws",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Zondara's Gravebreakers",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Graverobber's Tools",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Rending Claws",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Graverobber's Tools",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Graverobber's Tools",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Graverobber's Tools",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "The Crimson Court",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Courtly Weapon",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Courtly Weapon",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Courtly Weapon",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Courtly Weapon",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "The Exiled Dead",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Arco-electric Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Arco-electric Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Arco-electric Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Arco-electric Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Arco-electric Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Arco-electric Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Arco-electric Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "The Sepulchral Guard",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Ancient Weapon",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ancient Weapon",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ancient Weapon",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ancient Weapon",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ancient Weapon",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ancient Weapon",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ancient Weapon",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "The Sons of Velmorn",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Royal Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Royal Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Royal Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Royal Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Royal Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Wight Lord on Skeletal Steed",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Lord's Tomb Blade",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Skeletal Steed's Hooves and Teeth",
+                    "numberOfAttacks": 2,
+                    "toHit": 5,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Blades of the Hollow King",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Kennistrix's Fangs",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 3,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ezechiarian Greatsword",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Sissendra's Twin Blades",
+                    "numberOfAttacks": 8,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Vampire Lord on Nightmare Steed",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Dynastic Cavalier Weapon",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Nightmare's Hooves and Teeth",
+                    "numberOfAttacks": 3,
+                    "toHit": 5,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Revenant Draconith",
+            "modelCount": 1,
+            "healthPerModel": 16,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Pestilential Miasma",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Draconic Maw",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Draconic Claws",
+                    "numberOfAttacks": 7,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Cursed Sepulchre",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Unholy Reliquary",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Sanguine Swarm",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Leeching Bites",
+                    "numberOfAttacks": 10,
+                    "toHit": 5,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Hand of Nagash",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Grasping Talon",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Anvil of Apotheosis: Soulblight Gravelords Hero",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Grave Blade",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Mighty Grave Beast's Talons",
+                    "numberOfAttacks": 7,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Spectral Host's Blades",
+                    "numberOfAttacks": 10,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Necrotic Breath",
+                    "numberOfAttacks": "D6",
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Undead Steed's Hooves",
+                    "numberOfAttacks": 3,
+                    "toHit": 5,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Sekhar, Fang of Nulahmia (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Nulahmian Warglaive",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ouboroth's Godhusk Fangs",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        },
+        {
+            "unitName": "Corpse Cart (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Corpsemaster's Tools and Zombies' Bites",
+                    "numberOfAttacks": "D6+6",
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Soulblight Gravelords - Library"
+            ]
+        }
+    ]
+}

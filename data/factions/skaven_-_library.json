@@ -1,0 +1,1934 @@
+{
+    "faction": "Skaven - Library",
+    "units": [
+        {
+            "unitName": "Stormfiends",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Ratling Cannons",
+                    "numberOfAttacks": "3D6",
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 15
+                },
+                {
+                    "weaponName": "Clubbing Blows",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ratling Cannons",
+                    "numberOfAttacks": "3D6",
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 15
+                },
+                {
+                    "weaponName": "Clubbing Blows",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Grinderfists",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Grinderfists",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Warpfire Projectors",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 2,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Clubbing Blows",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Warpfire Projectors",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 2,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Clubbing Blows",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Windlaunchers",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 15
+                },
+                {
+                    "weaponName": "Clubbing Blows",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Windlaunchers",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 15
+                },
+                {
+                    "weaponName": "Clubbing Blows",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Doomflayer Gauntlets",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Doomflayer Gauntlets",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Shock Gauntlets",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Shock Gauntlets",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Thanquol on Boneripper",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Warpfire Braziers",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Staff of the Horned Rat",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Custom Warpfire Projectors",
+                    "numberOfAttacks": 6,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 1,
+                    "range": 10
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Lord Skreech Verminking",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Glaive of the Rat King",
+                    "numberOfAttacks": 7,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Verminlord Deceiver",
+            "modelCount": 1,
+            "healthPerModel": 13,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Doomstar",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 13
+                },
+                {
+                    "weaponName": "Warpstiletto",
+                    "numberOfAttacks": 8,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 3,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Grey Seer on Screaming Bell",
+            "modelCount": 1,
+            "healthPerModel": 15,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Rat Ogor's Tearing Claws",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Crushing Bulk",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Warpstone Staff",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Verminlord Warbringer",
+            "modelCount": 1,
+            "healthPerModel": 13,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Doom Glaive and Spike-fist",
+                    "numberOfAttacks": 7,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Verminlord Warpseer",
+            "modelCount": 1,
+            "healthPerModel": 13,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Doom Glaive",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Clawlord",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Warpforged Blade",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Plague Priest",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Warpstone-tipped Staff",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Warlock Engineer",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Warplock Musket",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 24
+                },
+                {
+                    "weaponName": "Warpforged Dagger",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Warlock Bombardier",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Doomrocket",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D6",
+                    "range": 18
+                },
+                {
+                    "weaponName": "Firing Pole",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Plagueclaw",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Plagueclaw Catapult",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D6",
+                    "range": 24
+                },
+                {
+                    "weaponName": "Crew's Teeth and Knives",
+                    "numberOfAttacks": "D6",
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Warplock Jezzails",
+            "modelCount": 2,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Rusty Knives",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Warplock Jezzail",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 18
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Ratling Warpblaster",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Hail of Warpstone Bullets",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 20
+                },
+                {
+                    "weaponName": "Thrall-rats' Claws",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Warpfire Thrower",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Rusty Knives",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Warpfire Thrower",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 2,
+                    "weaponDamage": 1,
+                    "range": 10
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Rat Ogors",
+            "modelCount": 2,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Claws, Blades and Fangs",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Warpfire Gun",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 2,
+                    "weaponDamage": 1,
+                    "range": 10
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Doom-flayers",
+            "modelCount": 1,
+            "healthPerModel": 4,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Whirling Blades",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Ratling Gun",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Rusty Knives",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ratling Gun",
+                    "numberOfAttacks": "3D6",
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 15
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Arch-Warlock",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Warpfire Gauntlet",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Stormcage Halberd",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Crushing Piston-claw",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Doomwheel",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Warp Bolts",
+                    "numberOfAttacks": "D6",
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 13
+                },
+                {
+                    "weaponName": "Grinding Wheels",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Verminlord Corruptor",
+            "modelCount": 1,
+            "healthPerModel": 13,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Plaguereapers",
+                    "numberOfAttacks": 8,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Acolyte Globadiers",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Rusty Knife",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Poisoned Wind Globe",
+                    "numberOfAttacks": 1,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 10
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Hell Pit Abomination",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Gnashing Teeth and Flailing Fists",
+                    "numberOfAttacks": 13,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Plague Monks",
+            "modelCount": 17,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Foetid Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Clanrats",
+            "modelCount": 17,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Rusty Weapon",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Stormvermin",
+            "modelCount": 7,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Stormvermin Weapons",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Grey Seer",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Warpstone Staff",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Deathmaster",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Eshin Throwing Stars",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 10
+                },
+                {
+                    "weaponName": "Weeping Blade",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Master Moulder",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Warpsyringe Pistol",
+                    "numberOfAttacks": "D6",
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Arsenal of Mutation",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Clawlord on Gnaw-beast",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Warpforged Halberd",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Ratling Pistol",
+                    "numberOfAttacks": "D6",
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Gnaw-beast's Chisel Fangs",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Plague Priest on Plague Furnace",
+            "modelCount": 1,
+            "healthPerModel": 15,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Great Plague Censer",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Foetid Blades",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Crushing Bulk",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Warpstone-tipped Staff",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Warp Lightning Cannon",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Warp Lightning Blast",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 4,
+                    "toWound": "\u27ddSee Warp Lightning Blast ability\u27de",
+                    "rend": 0,
+                    "weaponDamage": "\u27ddSee Warp Lightning Blast ability\u27de",
+                    "range": 20
+                },
+                {
+                    "weaponName": "Crew's Teeth and Knives",
+                    "numberOfAttacks": "D6",
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Night Runners",
+            "modelCount": 9,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Slings and Poisoned Stars",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Poisoned Blades",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Bell of Doom",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Volatile Warp Energy",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Gnawhole",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Vermintide",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Chittering Bites",
+                    "numberOfAttacks": 13,
+                    "toHit": 5,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Warp Lightning Vortex",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Plague Censer Bearers",
+            "modelCount": 5,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Plague Censer",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Gutter Runners",
+            "modelCount": 5,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Poisoned Stars",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Punch Dagger and Blade",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Skabbik's Plaguepack",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Plague Censer",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Plaguepack Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Plaguepack Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Plaguepack Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Plaguepack Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Skittershank's Clawpack",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Poisoned Stars",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Weeping Blade",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Poisoned Blades",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Poisoned Stars",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Poisoned Blades",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Poisoned Stars",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Poisoned Blades",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Poisoned Stars",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Poisoned Blades",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Poisoned Stars",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 10
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Spiteclaw's Swarm",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Rusty Weapon",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Wicked Halberd",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Rusty Weapon",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Rusty Weapon",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Rusty Weapon",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Brood Terror",
+            "modelCount": 1,
+            "healthPerModel": 12,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Warpflame Scourger",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 15
+                },
+                {
+                    "weaponName": "Chain-flail",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Bladed Limbs",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Krittok Foulblade",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Warplock Pistol",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 10
+                },
+                {
+                    "weaponName": "Doomfang",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Plaguepack",
+            "modelCount": 3,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Plague Censer",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Weapons of Corruption",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Vizzik Skour, Prophet of the Horned Rat",
+            "modelCount": 1,
+            "healthPerModel": 15,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Host of Vermin",
+                    "numberOfAttacks": 10,
+                    "toHit": 5,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Unholy Gnawstaff",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D6",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Warlock Galvaneer",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Warpvolt Obliterator",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 18
+                },
+                {
+                    "weaponName": "Rusted Blade",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Warp-Grinder",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Crew's Teeth and Knives",
+                    "numberOfAttacks": "D6",
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Warpstone Drill-fang",
+                    "numberOfAttacks": "D3",
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 3,
+                    "weaponDamage": 5,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Warpvolt Scourgers",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Rusty Knives",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Warpvolt Scourger",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 15
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Zikkit's Tunnelpack",
+            "modelCount": 1,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Warp Drill",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Tunneling Gear",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Skryre Bombs",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 2,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Mangy Claws",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Skryre Bombs",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 2,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Mangy Claws",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 5,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Anvil of Apotheosis: Skaven Hero",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Warpforged Blade",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Gnaw-beast's Chisel Fangs",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Moulder-beast's Monstrous Limbs",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Crushing Bulk",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 0,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Warpfire Launcher",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Warp Lightning Strike",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 4,
+                    "toWound": "\u27ddSee 'Warp Lightning Strike' ability\u27de",
+                    "rend": 0,
+                    "weaponDamage": "\u27ddSee 'Warp Lightning Strike' ability\u27de",
+                    "range": 20
+                },
+                {
+                    "weaponName": "Clawed Catapult",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D6",
+                    "range": 24
+                },
+                {
+                    "weaponName": "Warplock Musket",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 24
+                },
+                {
+                    "weaponName": "Experimental Warpvolt Incinerator",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 18
+                },
+                {
+                    "weaponName": "Doomrocket",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D6",
+                    "range": 18
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Grey Seer on Screaming Bell (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Rat Ogor's Tearing Claws",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Crushing Bulk",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Warpstone Staff",
+                    "numberOfAttacks": 3,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        },
+        {
+            "unitName": "Brood Terror (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Warpflame Scourger",
+                    "numberOfAttacks": "2D6",
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 15
+                },
+                {
+                    "weaponName": "Chain-flail",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Loosely Attached Bladed Limbs",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Skaven - Library"
+            ]
+        }
+    ]
+}

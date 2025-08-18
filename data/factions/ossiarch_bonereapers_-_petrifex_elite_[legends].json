@@ -1,0 +1,36 @@
+{
+    "faction": "Ossiarch Bonereapers - Petrifex Elite [LEGENDS]",
+    "units": [
+        {
+            "unitName": "The Grand Necromystic",
+            "modelCount": 1,
+            "healthPerModel": 12,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Bludgeoning Strikes",
+                    "numberOfAttacks": 5,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 4,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Petrified Spinesaw",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 6,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ossiarch Bonereapers - Petrifex Elite [LEGENDS]"
+            ]
+        }
+    ]
+}

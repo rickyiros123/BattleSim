@@ -1,0 +1,45 @@
+{
+    "faction": "Ironjawz - Ironsunz [LEGENDS]",
+    "units": [
+        {
+            "unitName": "Dakkbad Grotkicker",
+            "modelCount": 1,
+            "healthPerModel": 18,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Bossbiter's Roar",
+                    "numberOfAttacks": 4,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 8
+                },
+                {
+                    "weaponName": "Bossbiter's Fists and Tail",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Overboss-choppa",
+                    "numberOfAttacks": 6,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Ironjawz - Ironsunz [LEGENDS]"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,935 @@
+{
+    "faction": "Lumineth Realm-lords - Library",
+    "units": [
+        {
+            "unitName": "Vanari Starshard Ballista",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Starshard Bolts",
+                    "numberOfAttacks": 3,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 24
+                },
+                {
+                    "weaponName": "Crew's Arming Swords",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Alarith Spirit of the Mountain",
+            "modelCount": 1,
+            "healthPerModel": 14,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Stoneheart Worldhammer",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 5,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Cloven Hooves",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Geomantic Blast",
+                    "numberOfAttacks": 1,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D6",
+                    "range": 12
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Ellania and Ellathor, Eclipsian Warsages",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Altairi",
+                    "numberOfAttacks": 5,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Dianaer",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Blazing Sunbolt",
+                    "numberOfAttacks": 3,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 12
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Lyrior Uthralle, Warden of Ymetrica",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Lyrior's Sword",
+                    "numberOfAttacks": 4,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Farael's Horns and Claws",
+                    "numberOfAttacks": 4,
+                    "toHit": 5,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Daemonbane",
+                    "numberOfAttacks": 1,
+                    "toHit": 2,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 12
+                },
+                {
+                    "weaponName": "Daemonbane",
+                    "numberOfAttacks": 2,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Vanari Dawnriders",
+            "modelCount": 3,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Dawnrider Lances and Blades",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Stallions' Dashing Hooves",
+                    "numberOfAttacks": 2,
+                    "toHit": 5,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Vanari Lord Regent",
+            "modelCount": 1,
+            "healthPerModel": 7,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Regent's Sword",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Lightcourser's Horns and Claws",
+                    "numberOfAttacks": 3,
+                    "toHit": 5,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Vanari Auralan Sentinels",
+            "modelCount": 9,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Auralan Bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Sentinel Blades",
+                    "numberOfAttacks": 1,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Vanari Bladelords",
+            "modelCount": 4,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Sunmetal Blade: Perfect Strike",
+                    "numberOfAttacks": 1,
+                    "toHit": "\u27ddSee 'Swordmasters' ability\u27de",
+                    "toWound": "\u27ddSee 'Swordmasters' ability\u27de",
+                    "rend": 0,
+                    "weaponDamage": "\u27ddSee 'Swordmasters' ability\u27de",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Sunmetal Blade: Flurry of Blows",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Vanari Bannerblade",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Bannerblade's Sword",
+                    "numberOfAttacks": 4,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Scinari Calligrave",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Calligrave Blade",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Scinari Cathallar",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Despairing Touch",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Scinari Loreseeker",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Eclipsian Staff",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 12
+                },
+                {
+                    "weaponName": "Loreseeker Blade",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Hurakan Windmage",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Windblast Vortex",
+                    "numberOfAttacks": 1,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 10
+                },
+                {
+                    "weaponName": "Aspiragillum",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Hurakan Windchargers",
+            "modelCount": 3,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Treerunner's Claws",
+                    "numberOfAttacks": 2,
+                    "toHit": 5,
+                    "toWound": 3,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Windcharger Bow",
+                    "numberOfAttacks": 1,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Windcharger Bow",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 12
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "The Light of Eltharion",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Celennari Blade",
+                    "numberOfAttacks": 2,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Fangsword of Eltharion",
+                    "numberOfAttacks": 4,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 3,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Searing Darts of Light",
+                    "numberOfAttacks": 3,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 12
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Alarith Stonemage",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Staff of the High Peaks",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Ydrilan Riverblades",
+            "modelCount": 9,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Ythara Darts",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 10
+                },
+                {
+                    "weaponName": "Ydrilan Blades",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Archmage Teclis and Celennar, Spirit of Hysh",
+            "modelCount": 1,
+            "healthPerModel": 16,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Celennar's Moonbright Talons",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Sword of Teclis",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 0
+                },
+                {
+                    "weaponName": "Lunar Staff",
+                    "numberOfAttacks": 1,
+                    "toHit": 2,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D6",
+                    "range": 12
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Hurakan Spirit of the Wind",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Swirling Shards",
+                    "numberOfAttacks": 6,
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Bow of the Wind's Vengeance",
+                    "numberOfAttacks": 4,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 12
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Scinari Enlightener",
+            "modelCount": 1,
+            "healthPerModel": 5,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Crescent Staff",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": "D3",
+                    "range": 12
+                },
+                {
+                    "weaponName": "Enlightener Blade",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Avalenor, the Stoneheart King",
+            "modelCount": 1,
+            "healthPerModel": 16,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [
+                {
+                    "weaponName": "Firestealer Hammers",
+                    "numberOfAttacks": 6,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 4,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Cloven Hooves",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Geomantic Blast",
+                    "numberOfAttacks": 1,
+                    "toHit": 3,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D6",
+                    "range": 12
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Sevireth, Lord of the Seventh Wind",
+            "modelCount": 1,
+            "healthPerModel": 10,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Swirling Shards",
+                    "numberOfAttacks": 6,
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Enathrai, the Howling Death",
+                    "numberOfAttacks": 4,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 3,
+                    "weaponDamage": "D3+1",
+                    "range": 12
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Alarith Stoneguard",
+            "modelCount": 3,
+            "healthPerModel": 2,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Stoneguard Hammers",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Vanari Auralan Wardens",
+            "modelCount": 9,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Warden Pikes and Blades",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Rune of Petrification",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Shrine Luminor",
+            "modelCount": 1,
+            "healthPerModel": 12,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Sanctum of Amyntok",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Hyshian Twinstones",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 6,
+            "weapons": [],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Myari's Purifiers",
+            "modelCount": 1,
+            "healthPerModel": 3,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Auralan Bow",
+                    "numberOfAttacks": 2,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Purifier Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Purifier Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Purifier Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Purifier Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 2,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "Vanari Bannerblade (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Bannerblade's Sword",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        },
+        {
+            "unitName": "The Light of Eltharion (Scourge of Ghyran)",
+            "modelCount": 1,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 4,
+            "weapons": [
+                {
+                    "weaponName": "Celennari Blade",
+                    "numberOfAttacks": 2,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Fangsword of Eltharion",
+                    "numberOfAttacks": 5,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 3,
+                    "weaponDamage": 3,
+                    "range": 0
+                },
+                {
+                    "weaponName": "Searing Darts of Light",
+                    "numberOfAttacks": 3,
+                    "toHit": 2,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": "D3",
+                    "range": 12
+                }
+            ],
+            "keywords": [
+                "Lumineth Realm-lords - Library"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "faction": "\u00fe The Duardin Ascendant [LEGENDS]",
+    "units": [
+        {
+            "unitName": "Grombrindal, the White Dwarf",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Rune Axe of Grimnir",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 2,
+                    "weaponDamage": 3,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "\u00fe The Duardin Ascendant [LEGENDS]"
+            ]
+        }
+    ]
+}

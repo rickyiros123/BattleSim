@@ -1,0 +1,138 @@
+{
+    "faction": "Disciples of Tzeentch - Pyrofane Cult",
+    "units": [
+        {
+            "unitName": "Pyrofane Fusiliers",
+            "modelCount": 8,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Fusil-cannon: Fortified Position",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 18
+                },
+                {
+                    "weaponName": "Fusil-cannon: Mobile",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 1,
+                    "weaponDamage": 1,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Bayonet",
+                    "numberOfAttacks": 1,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Disciples of Tzeentch - Pyrofane Cult"
+            ]
+        },
+        {
+            "unitName": "Pyrofane Great Cannon",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Great Cannon: Cannonball",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": "D3+2",
+                    "range": 24
+                },
+                {
+                    "weaponName": "Great Cannon: Grapeshot",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 12
+                },
+                {
+                    "weaponName": "Crew's Tools and Sidearms",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Disciples of Tzeentch - Pyrofane Cult"
+            ]
+        },
+        {
+            "unitName": "Pyrofane Fusil-Major on Ogor Warhulk",
+            "modelCount": 1,
+            "healthPerModel": 8,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Long Fusil",
+                    "numberOfAttacks": 3,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 24
+                },
+                {
+                    "weaponName": "Warhulk's Mace",
+                    "numberOfAttacks": 4,
+                    "toHit": 4,
+                    "toWound": 2,
+                    "rend": 2,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Disciples of Tzeentch - Pyrofane Cult"
+            ]
+        },
+        {
+            "unitName": "Pyrofane Steelhelms",
+            "modelCount": 8,
+            "healthPerModel": 1,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 0,
+            "weapons": [
+                {
+                    "weaponName": "Freeguild Weapons",
+                    "numberOfAttacks": 2,
+                    "toHit": 4,
+                    "toWound": 4,
+                    "rend": 0,
+                    "weaponDamage": 1,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Disciples of Tzeentch - Pyrofane Cult"
+            ]
+        }
+    ]
+}

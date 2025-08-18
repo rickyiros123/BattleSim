@@ -1,0 +1,27 @@
+{
+    "faction": "Stormcast Eternals - Astral Templars [LEGENDS]",
+    "units": [
+        {
+            "unitName": "Hamilcar Bear-Eater",
+            "modelCount": 1,
+            "healthPerModel": 6,
+            "floatingDamage": 0,
+            "save": 0,
+            "ward": 5,
+            "weapons": [
+                {
+                    "weaponName": "Hamilcar's Halberd",
+                    "numberOfAttacks": 5,
+                    "toHit": 3,
+                    "toWound": 3,
+                    "rend": 1,
+                    "weaponDamage": 2,
+                    "range": 0
+                }
+            ],
+            "keywords": [
+                "Stormcast Eternals - Astral Templars [LEGENDS]"
+            ]
+        }
+    ]
+}

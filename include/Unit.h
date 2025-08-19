@@ -1,10 +1,15 @@
 #pragma once
 #include <iostream>
 #include <vector>
+#include <variant>
 
 struct Weapon {
-    int numberOfAttacks, toHit, toWound, rend, weaponDamage, range;
+    std::variant<int, std::string> numberOfAttacks;
+    int toHit, toWound, rend, range;
+    std::variant<int, std::string> weaponDamage;
     std::string weaponName;
+
+    // Default constructor
 };
 
 class Unit {

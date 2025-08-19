@@ -5,8 +5,10 @@
 #include "Dice.h"
 
 void Faction::populateFaction(const json &factionData, std::unordered_map<int, Unit> &units) {
+    std::cout << "Populating faction with data from JSON." << std::endl;
     int unitId = 0;  // Initialize unit ID for unique identification
     for (const auto &unit : factionData["units"]) {
+        std::cout << "Adding: " << unit["unitName"] << std::endl;
         int modelCount = unit["modelCount"].get<int>();
         int healthPerModel = unit["healthPerModel"].get<int>();
         int floatingDamage = unit["floatingDamage"].get<int>();
@@ -15,30 +17,24 @@ void Faction::populateFaction(const json &factionData, std::unordered_map<int, U
         std::vector<Weapon> weapons;
         for (const auto &w : unit["weapons"]) {
             Weapon weapon;
-            weapon.numberOfAttacks = w["numberOfAttacks"].get<int>();
+            if( w["numberOfAttacks"].is_number_integer()) {
+                weapon.numberOfAttacks = w["numberOfAttacks"].get<int>();
+            } else if (w["numberOfAttacks"].is_string()) {
+                weapon.numberOfAttacks = w["numberOfAttacks"].get<std::string>();
+            }
             weapon.toHit = w["toHit"].get<int>();
             weapon.toWound = w["toWound"].get<int>();
             weapon.rend = w["rend"].get<int>();
             // Handle weaponDamage as int or dice notation string
             if (w["weaponDamage"].is_number_integer()) {
                 weapon.weaponDamage = w["weaponDamage"].get<int>();
-            } else if (w["weaponDamage"].is_string()) {
-                std::string dmgStr = w["weaponDamage"].get<std::string>();
-                // Example: handle "D3", "D6", "2D6" etc.
-                if (dmgStr == "D3") {
-                    weapon.weaponDamage = roll_dice(1, 3, 1, 3).successfulRolls;  // or your dice roll logic
-                } else if (dmgStr == "D6") {
-                    weapon.weaponDamage = roll_dice(1, 6, 1, 6).successfulRolls;
-                } else if (dmgStr == "2D6") {
-                    weapon.weaponDamage = roll_dice(2, 6, 1, 6).successfulRolls;
-                } else {
-                    weapon.weaponDamage = 0;  // fallback for unknown notation
-                }
-            } else {
-                weapon.weaponDamage = 0;
+            }
+            else if (w["weaponDamage"].is_string()) {
+                weapon.weaponDamage = w["weaponDamage"].get<std::string>();
             }
             weapon.range = w["range"].get<int>();
             weapon.weaponName = w["weaponName"].get<std::string>();
+            std::cout << "Weapon added" << std::endl;   
             weapons.push_back(weapon);
         }
         std::vector<std::string> keywords;
@@ -68,7 +64,6 @@ json loadJsonFiles(std::string &factionName) {
         return json();
     }
     json factionData;
-
     factionRawData >> factionData;
 
     return factionData;

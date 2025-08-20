@@ -12,9 +12,9 @@ class Faction {
     std::vector<Unit> units;
 };
 
-std::unordered_map<int, std::string> createFactionUnits(const json &factionJson);
-void printFactionUnits(const std::unordered_map<int, std::string> &units);
+std::unordered_map<int, std::string> buildFactionUnitMap(const json &factionJson);
+void printFactionUnitList(const std::unordered_map<int, std::string> &units);
 
-json loadJsonFiles(std::string &factionName);
-Unit createUnitFromJson(const json &factionJson, int unitId);
+json loadFactionData(std::string &factionName);
+Unit makeUnitFromJson(const json &factionJson, int unitId);
 std::vector<Weapon> parseWeapons(const json &weaponJson);

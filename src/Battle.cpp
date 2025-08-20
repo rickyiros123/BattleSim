@@ -1,5 +1,7 @@
 #include "Battle.h"
 
+#include <string>
+
 #include "Unit.h"
 
 void battleSequence(Unit attacker, Unit &defender) {
@@ -16,8 +18,18 @@ void battleSequence(Unit attacker, Unit &defender) {
 
 AttackSummary resolveAttack(const Unit &attacker, Weapon attackingWeapon, Unit &defender) {
     AttackSummary summary;
+    // numberOfAttacks is a variant<int,string> -> extract int safely
+    auto get_int_from_variant = [](const std::variant<int, std::string> &v, int def) {
+        if (std::holds_alternative<int>(v)) return std::get<int>(v);
+        try {
+            return std::stoi(std::get<std::string>(v));
+        } catch (...) {
+            return def;
+        }
+    };
 
-    summary.hitResult = roll_dice(attackingWeapon.numberOfAttacks * attacker.modelCount, 6, attackingWeapon.toHit, 6);
+    int attacks = get_int_from_variant(attackingWeapon.numberOfAttacks, 1) * attacker.modelCount;
+    summary.hitResult = roll_dice(attacks, 6, attackingWeapon.toHit, 6);
     summary.woundResult = roll_dice(summary.hitResult.successfulRolls, 6, attackingWeapon.toWound, 6);
     summary.saveResult = roll_dice(summary.woundResult.successfulRolls, 6, defender.save, 6);
 

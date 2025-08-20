@@ -12,7 +12,7 @@
 
 using json = nlohmann::json;
 
-void displayOpeningMenu() {
+void displayMainMenu() {
     std::cout << "=============================\n";
     std::cout << "   Welcome to BattleSim!\n";
     std::cout << "=============================\n";
@@ -29,7 +29,7 @@ int main() {
 
     char choice = ' ';
     while (choice != 'x') {
-        displayOpeningMenu();
+        displayMainMenu();
         std::cin >> choice;
         int factionChoice = 0;
         switch (choice) {
@@ -53,14 +53,14 @@ int main() {
                     break;
                 }
 
-                json factionJson = loadJsonFiles(factionName);
+                json factionJson = loadFactionData(factionName);
                 if (factionJson.empty()) {
                     std::cerr << "Failed to load faction data. Make sure JSON files exist and are correct.\n";
                     break;
                 }
 
-                std::unordered_map<int, std::string> factionUnits = createFactionUnits(factionJson);
-                printFactionUnits(factionUnits);
+                std::unordered_map<int, std::string> factionUnits = buildFactionUnitMap(factionJson);
+                printFactionUnitList(factionUnits);
 
                 std::vector<Unit> userArmyList;
                 std::string input;
@@ -70,7 +70,7 @@ int main() {
                 std::cout << "-----------------------------\n";
 
                 while (true) {
-                    printFactionUnits(factionUnits);
+                    printFactionUnitList(factionUnits);
                     std::cout << "-----------------------------\n";
                     std::cout << "Unit ID: ";
                     std::cin >> input;
@@ -82,7 +82,7 @@ int main() {
                     try {
                         int unitId = std::stoi(input);  // convert to int
                         if (factionUnits.count(unitId)) {
-                            Unit chosenUnit = createUnitFromJson(factionJson, unitId);
+                            Unit chosenUnit = makeUnitFromJson(factionJson, unitId);
                             userArmyList.push_back(chosenUnit);
 
                             std::cout << "Added: " << factionUnits[unitId] << "\n";
@@ -94,7 +94,7 @@ int main() {
                     }
                 }
                 for (const auto &unit : userArmyList) {
-                    printUnitStats(unit);
+                    printUnitSummary(unit);
                 }
 
                 // Later: fight logic would use userArmyList

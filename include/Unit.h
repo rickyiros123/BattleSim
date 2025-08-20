@@ -4,12 +4,13 @@
 #include <vector>
 
 struct Weapon {
-    int numberOfAttacks;
+    std::variant<int, std::string> weaponDamage;
+    std::variant<int, std::string> numberOfAttacks;
     int toHit, toWound, rend, range;
-    int weaponDamage;
     std::string weaponName;
 
-    // Default constructor
+    Weapon() = default;
+    ~Weapon() = default;
 };
 
 class Unit {
@@ -22,4 +23,4 @@ class Unit {
     std::string unitName;
 };
 
-void printUnitStats(const Unit &unit);
+void printUnitSummary(const Unit &unit);

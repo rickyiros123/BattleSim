@@ -1,5 +1,6 @@
 #include <Unit.h>
 
+#include <string>
 Unit::Unit(int modelCount, int healthPerModel, int floatingDamage, int save, int ward, std::vector<Weapon> weapons, std::vector<std::string> keywords, std::string unitName) {
     this->modelCount = modelCount;
     this->healthPerModel = healthPerModel;
@@ -13,7 +14,7 @@ Unit::Unit(int modelCount, int healthPerModel, int floatingDamage, int save, int
 
 Unit::Unit() : modelCount(0), healthPerModel(0), floatingDamage(0), save(0), ward(0) {}
 
-void printUnitStats(const Unit &unit) {
+void printUnitSummary(const Unit &unit) {
     std::cout << "Unit Name: " << unit.unitName << "\n";
     std::cout << "Model Count: " << unit.modelCount << "\n";
     std::cout << "Health Per Model: " << unit.healthPerModel << "\n";
@@ -25,10 +26,15 @@ void printUnitStats(const Unit &unit) {
         std::cout << k << " ";
     }
     std::cout << "\nWeapons:" << std::endl;
+    auto variantToString = [](const std::variant<int, std::string> &v) {
+        if (std::holds_alternative<int>(v)) {
+            return std::to_string(std::get<int>(v));
+        }
+        return std::get<std::string>(v);
+    };
+
     for (const auto &w : unit.weapons) {
-        std::cout << "  - " << w.weaponName << ": Attacks=" << w.numberOfAttacks << ", To Hit=" << w.toHit << ", To Wound=" << w.toWound << ", Rend=" << w.rend << ", Damage=" << w.weaponDamage << ", Range=" << w.range << std::endl;
+        std::cout << "  - " << w.weaponName << ": Attacks=" << variantToString(w.numberOfAttacks) << ", To Hit=" << w.toHit << ", To Wound=" << w.toWound << ", Rend=" << w.rend << ", Damage=" << variantToString(w.weaponDamage) << ", Range=" << w.range << std::endl;
     }
     std::cout << std::endl;
 }
-
-

@@ -47,15 +47,11 @@ def parse_cat_file(filepath):
                     name = char.attrib.get('name')
                     value = char.text
                     if name == "Health":
-                        try:
-                            unit["healthPerModel"] = int(value)
-                        except:
-                            pass
+                        # Use safe_int to handle values like '6+' or other non-integer text
+                        unit["healthPerModel"] = safe_int(value, unit["healthPerModel"])
                     elif name == "Save":
-                        try:
-                            unit["save"] = int(value)
-                        except:
-                            pass
+                        # Parse save like '6+' -> 6
+                        unit["save"] = safe_int(value, unit["save"])
                     # Add more stats as needed
 
         model_count = 1  # Default

@@ -1,12 +1,12 @@
 #pragma once
 #include <iostream>
-#include <vector>
 #include <variant>
+#include <vector>
 
 struct Weapon {
-    std::variant<int, std::string> numberOfAttacks;
+    int numberOfAttacks;
     int toHit, toWound, rend, range;
-    std::variant<int, std::string> weaponDamage;
+    int weaponDamage;
     std::string weaponName;
 
     // Default constructor

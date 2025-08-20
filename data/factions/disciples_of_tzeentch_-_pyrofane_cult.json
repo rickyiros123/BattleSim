@@ -6,7 +6,7 @@
             "modelCount": 8,
             "healthPerModel": 1,
             "floatingDamage": 0,
-            "save": 0,
+            "save": 4,
             "ward": 0,
             "weapons": [
                 {
@@ -46,7 +46,7 @@
             "modelCount": 1,
             "healthPerModel": 8,
             "floatingDamage": 0,
-            "save": 0,
+            "save": 4,
             "ward": 0,
             "weapons": [
                 {
@@ -86,7 +86,7 @@
             "modelCount": 1,
             "healthPerModel": 8,
             "floatingDamage": 0,
-            "save": 0,
+            "save": 3,
             "ward": 0,
             "weapons": [
                 {
@@ -117,7 +117,7 @@
             "modelCount": 8,
             "healthPerModel": 1,
             "floatingDamage": 0,
-            "save": 0,
+            "save": 4,
             "ward": 0,
             "weapons": [
                 {

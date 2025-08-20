@@ -1,4 +1,6 @@
 #pragma once
+#include <string>
+#include <unordered_map>
 #include <vector>
 
 #include "Unit.h"
@@ -7,8 +9,12 @@ using json = nlohmann::json;
 
 class Faction {
    public:
-void populateFaction(const json &factionData, std::unordered_map<int, Unit> &units);    
-std::vector<Unit> units;
+    std::vector<Unit> units;
 };
 
+std::unordered_map<int, std::string> createFactionUnits(const json &factionJson);
+void printFactionUnits(const std::unordered_map<int, std::string> &units);
+
 json loadJsonFiles(std::string &factionName);
+Unit createUnitFromJson(const json &factionJson, int unitId);
+std::vector<Weapon> parseWeapons(const json &weaponJson);

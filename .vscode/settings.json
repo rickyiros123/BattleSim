@@ -81,7 +81,8 @@
     "random": "cpp",
     "stop_token": "cpp",
     "thread": "cpp",
-    "xstddef": "cpp"
+    "xstddef": "cpp",
+    "variant": "cpp"
   },
   "editor.defaultFormatter": "ms-vscode.cpptools",
   "makefile.configureOnOpen": false

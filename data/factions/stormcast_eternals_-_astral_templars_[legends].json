@@ -6,7 +6,7 @@
             "modelCount": 1,
             "healthPerModel": 6,
             "floatingDamage": 0,
-            "save": 0,
+            "save": 3,
             "ward": 5,
             "weapons": [
                 {

@@ -6,7 +6,7 @@
             "modelCount": 1,
             "healthPerModel": 18,
             "floatingDamage": 0,
-            "save": 0,
+            "save": 4,
             "ward": 5,
             "weapons": [
                 {
@@ -46,7 +46,7 @@
             "modelCount": 1,
             "healthPerModel": 12,
             "floatingDamage": 0,
-            "save": 0,
+            "save": 5,
             "ward": 0,
             "weapons": [
                 {
@@ -95,7 +95,7 @@
             "modelCount": 1,
             "healthPerModel": 40,
             "floatingDamage": 0,
-            "save": 0,
+            "save": 4,
             "ward": 0,
             "weapons": [
                 {
@@ -135,7 +135,7 @@
             "modelCount": 1,
             "healthPerModel": 35,
             "floatingDamage": 0,
-            "save": 0,
+            "save": 4,
             "ward": 0,
             "weapons": [
                 {
@@ -175,7 +175,7 @@
             "modelCount": 1,
             "healthPerModel": 35,
             "floatingDamage": 0,
-            "save": 0,
+            "save": 4,
             "ward": 0,
             "weapons": [
                 {
@@ -224,7 +224,7 @@
             "modelCount": 1,
             "healthPerModel": 35,
             "floatingDamage": 0,
-            "save": 0,
+            "save": 4,
             "ward": 0,
             "weapons": [
                 {
@@ -273,7 +273,7 @@
             "modelCount": 1,
             "healthPerModel": 35,
             "floatingDamage": 0,
-            "save": 0,
+            "save": 4,
             "ward": 0,
             "weapons": [
                 {
@@ -313,7 +313,7 @@
             "modelCount": 1,
             "healthPerModel": 12,
             "floatingDamage": 0,
-            "save": 0,
+            "save": 5,
             "ward": 0,
             "weapons": [
                 {

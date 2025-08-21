@@ -26,8 +26,9 @@ Unit makeUnitFromJson(const json &factionJson, int unitId) {
     return result;
 }
 
-json loadFactionData(std::string &factionName) {
-    std::cout << "Loading faction: " << factionName << std::endl;
+json loadFactionData(const std::string &factionToLoad) {
+    std::cout << "Loading faction: " << factionToLoad << std::endl;
+    std::string factionName = factionToLoad;
     for (char &c : factionName) {
         c = tolower(c);
 

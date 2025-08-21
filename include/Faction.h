@@ -15,6 +15,6 @@ class Faction {
 std::unordered_map<int, std::string> buildFactionUnitMap(const json &factionJson);
 void printFactionUnitList(const std::unordered_map<int, std::string> &units);
 
-json loadFactionData(std::string &factionName);
+json loadFactionData(const std::string &factionName);
 Unit makeUnitFromJson(const json &factionJson, int unitId);
 std::vector<Weapon> parseWeapons(const json &weaponJson);

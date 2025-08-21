@@ -62,7 +62,7 @@ int main() {
                 std::unordered_map<int, std::string> factionUnits = buildFactionUnitMap(factionJson);
                 printFactionUnitList(factionUnits);
 
-                std::vector<Unit> userArmyList;
+                std::unordered_map<int, Unit> userArmyList;
                 std::string input;
 
                 std::cout << "\nNow let's select your units\n";
@@ -78,13 +78,17 @@ int main() {
                     if (input == "x" || input == "X") {
                         break;  // exit loop
                     }
+                    int unitId = std::stoi(input);
+
+                    if (userArmyList.find(unitId) != userArmyList.end()) {
+                        std::cout << "Unit already in your list" << std::endl;
+                        continue;
+                    }
 
                     try {
-                        int unitId = std::stoi(input);  // convert to int
                         if (factionUnits.count(unitId)) {
                             Unit chosenUnit = makeUnitFromJson(factionJson, unitId);
-                            userArmyList.push_back(chosenUnit);
-
+                            userArmyList[unitId] = chosenUnit;
                             std::cout << "Added: " << factionUnits[unitId] << "\n";
                         } else {
                             std::cout << "Invalid ID, please try again.\n";
@@ -94,7 +98,7 @@ int main() {
                     }
                 }
                 for (const auto &unit : userArmyList) {
-                    printUnitSummary(unit);
+                    printUnitSummary(unit.second);
                 }
 
                 // Later: fight logic would use userArmyList

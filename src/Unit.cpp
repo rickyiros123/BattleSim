@@ -36,5 +36,6 @@ void printUnitSummary(const Unit &unit) {
     for (const auto &w : unit.weapons) {
         std::cout << "  - " << w.weaponName << ": Attacks=" << variantToString(w.numberOfAttacks) << ", To Hit=" << w.toHit << ", To Wound=" << w.toWound << ", Rend=" << w.rend << ", Damage=" << variantToString(w.weaponDamage) << ", Range=" << w.range << std::endl;
     }
+    std::cout << "=======================================================================" << std::endl;
     std::cout << std::endl;
 }

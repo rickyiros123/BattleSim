@@ -60,6 +60,8 @@ AttackSummary resolveAttack(const Unit &attacker, Weapon attackingWeapon, Unit &
 
 // Still working on this function
 // This function will assign combat between friendly and enemy units based on user input
+// It will prompt the user to select which friendly unit attacks which enemy unit
+// and store the assignments in a map for later processing.
 void assignCombat(std::unordered_map<int, Unit> &friendlyUnits, std::unordered_map<int, Unit> &enemyUnits){
     std::unordered_map<Unit, Unit> combatAssignments;
     for(auto &friendlyUnit : friendlyUnits) {

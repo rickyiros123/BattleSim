@@ -13,5 +13,7 @@ struct AttackSummary {
 };
 
 void battleSequence(Unit attacker, Unit &defender);
+void assignCombat(std::unordered_map<int, Unit> &friendlyUnits, std::unordered_map<int, Unit> &enemyUnits);
+
 
 AttackSummary resolveAttack(const Unit &attacker, Weapon attackingWeapon, Unit &defender);

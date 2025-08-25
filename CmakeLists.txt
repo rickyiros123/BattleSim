@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.10)
+project(battle-sim LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
+include_directories(include)
+
+file(GLOB SRCS src/*.cpp)
+
+add_executable(battle-sim ${SRCS})
+
+# Optional: set output directory for build files
+set_target_properties(battle-sim PROPERTIES
+RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}"
+)

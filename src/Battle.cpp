@@ -1,10 +1,11 @@
 #include "Battle.h"
 
+#include <chrono>
+#include <iostream>
 #include <string>
 #include <unordered_map>
-#include <iostream>
 #include <variant>
-#include <chrono>
+
 #include "Dice.h"
 #include "Faction.h"
 #include "json.hpp"
@@ -57,19 +58,17 @@ AttackSummary resolveAttack(const Unit &attacker, Weapon attackingWeapon, Unit &
     return summary;
 }
 
-
 // Still working on this function
 // This function will assign combat between friendly and enemy units based on user input
 // It will prompt the user to select which friendly unit attacks which enemy unit
 // and store the assignments in a map for later processing.
-void assignCombat(std::unordered_map<int, Unit> &friendlyUnits, std::unordered_map<int, Unit> &enemyUnits){
-    std::unordered_map<Unit, Unit> combatAssignments;
-    for(auto &friendlyUnit : friendlyUnits) {
-        std::cout << "Who will " << friendlyUnit.second.unitName << " attack?" << std::endl;
-        for(const auto &enemyUnit : enemyUnits) {
-            std::cout << enemyUnit.first << ": " << enemyUnit.second.unitName << std::endl;
-        }
-        int enemyId = 0;
-
-    }
-}
+// void assignCombat(std::unordered_map<int, Unit> &friendlyUnits, std::unordered_map<int, Unit> &enemyUnits) {
+//     // Use int keys (IDs) for assignments to avoid requiring a hash for Unit
+//     std::unordered_map<int, Unit> combatAssignments;
+//     // for (auto &friendlyUnit : friendlyUnits) {
+//     //     std::cout << "Who will " << friendlyUnit.second.unitName << " attack?" << std::endl;
+//     //     for (const auto &enemyUnit : enemyUnits) {
+//     //         std::cout << enemyUnit.first << ": " << enemyUnit.second.unitName << std::endl;
+//     //     }
+//     // }
+// }

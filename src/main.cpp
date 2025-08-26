@@ -11,17 +11,12 @@
 #include "Faction.h"
 #include "Unit.h"
 #include "json.hpp"
+#include "utils.h"
 
 using json = nlohmann::json;
 
-// Read a full line from stdin into out. Returns false on EOF or stream error.
-static bool readLine(std::string &out) {
-    if (!std::getline(std::cin, out)) return false;
-    if (!out.empty() && out.back() == '\r') out.pop_back();  // handle CRLF on Windows
-    return true;
-}
-
 void displayMainMenu() {
+    clearScreen();
     std::cout << "=============================\n";
     std::cout << "   Welcome to BattleSim!\n";
     std::cout << "=============================\n";
@@ -48,7 +43,8 @@ int main() {
         int factionChoice2 = 0;
         switch (choice) {
             case 'a': {
-                std::cout << "\n=============================\n";
+                clearScreen();
+                std::cout << "=============================\n";
                 std::cout << "   Battle Sim Setup\n";
                 std::cout << "=============================\n";
                 std::cout << "\nLet's get started! We'll need your faction.\n";
@@ -63,6 +59,7 @@ int main() {
                     try {
                         factionChoice = std::stoi(line);
                     } catch (...) {
+                        clearScreen();
                         std::cout << "Invalid choice. Returning to menu." << std::endl;
                         break;
                     }
@@ -75,63 +72,28 @@ int main() {
                 } else if (factionChoice == 2) {
                     userFactionName = "seraphon";
                 } else {
+                    clearScreen();
                     std::cout << "Invalid choice. Returning to menu.\n";
                     break;
                 }
 
                 json factionJson = loadFactionData(userFactionName);
                 if (factionJson.empty()) {
+                    clearScreen();
                     std::cerr << "Failed to load faction data. Make sure JSON files exist and are correct.\n";
                     break;
                 }
 
                 std::unordered_map<int, std::string> factionUnits = buildFactionUnitMap(factionJson);
-
                 std::unordered_map<int, Unit> userArmyList;
-                std::string input;
 
-                std::cout << "\nNow let's select your units\n";
+                clearScreen();
+                std::cout << "Now let's select your units\n";
                 std::cout << "Enter your unit IDs and then enter 'x' when you are finished\n";
                 std::cout << "-----------------------------\n";
 
-                while (true) {
-                    printFactionUnitList(factionUnits);
-                    std::cout << "-----------------------------\n";
-                    std::cout << "Unit ID: ";
-                    if (!readLine(input)) return 0;
-
-                    if (input == "x" || input == "X") {
-                        break;  // exit loop
-                    }
-
-                    int unitId;
-                    try {
-                        unitId = std::stoi(input);
-                    } catch (const std::invalid_argument &) {
-                        std::cout << "Invalid input, enter a number or 'x' to exit." << std::endl;
-                        continue;
-                    } catch (const std::out_of_range &) {
-                        std::cout << "Number out of range, please enter a smaller value." << std::endl;
-                        continue;
-                    }
-
-                    if (userArmyList.find(unitId) != userArmyList.end()) {
-                        std::cout << "Unit already in your list" << std::endl;
-                        continue;
-                    }
-
-                    if (factionUnits.count(unitId)) {
-                        Unit chosenUnit = makeUnitFromJson(factionJson, unitId);
-                        userArmyList[unitId] = chosenUnit;
-                        std::cout << "Added: " << factionUnits[unitId] << "\n";
-                    } else {
-                        std::cout << "Invalid ID, please try again." << std::endl;
-                    }
-                }
-                for (const auto &unit : userArmyList) {
-                    printUnitSummary(unit.second);
-                }
-
+                std::string input;
+                buildUserArmyList(factionUnits, userArmyList, factionJson);
                 std::cout << "\n=============================\n";
                 std::cout << "   Battle Sim Setup\n";
                 std::cout << "=============================\n";
@@ -147,6 +109,7 @@ int main() {
                     try {
                         factionChoice2 = std::stoi(line);
                     } catch (...) {
+                        clearScreen();
                         std::cout << "Invalid choice. Returning to menu." << std::endl;
                         break;
                     }
@@ -163,6 +126,7 @@ int main() {
 
                 json factionJson2 = loadFactionData(opponentFaction);
                 if (factionJson2.empty()) {
+                    clearScreen();
                     std::cerr << "Failed to load faction data. Make sure JSON files exist and are correct.\n";
                     break;
                 }
@@ -171,45 +135,12 @@ int main() {
 
                 std::unordered_map<int, Unit> opponentArmyList;
                 std::string input2;
-
-                std::cout << "\nNow let's select your opponene units\n";
+                clearScreen();
+                std::cout << "Now let's select your opponene units\n";
                 std::cout << "Enter their unit IDs and then enter 'x' when you are finished\n";
                 std::cout << "-----------------------------\n";
 
-                while (true) {
-                    printFactionUnitList(opponentFactionUnits);
-                    std::cout << "-----------------------------\n";
-                    std::cout << "Unit ID: ";
-                    if (!readLine(input2)) return 0;
-
-                    if (input2 == "x" || input2 == "X") {
-                        break;  // exit loop
-                    }
-
-                    int unitId;
-                    try {
-                        unitId = std::stoi(input2);
-                    } catch (const std::invalid_argument &) {
-                        std::cout << "Invalid input, enter a number or 'x' to exit." << std::endl;
-                        continue;
-                    } catch (const std::out_of_range &) {
-                        std::cout << "Number out of range, please enter a smaller value." << std::endl;
-                        continue;
-                    }
-
-                    if (opponentArmyList.find(unitId) != opponentArmyList.end()) {
-                        std::cout << "Unit already in your list" << std::endl;
-                        continue;
-                    }
-
-                    if (opponentFactionUnits.count(unitId)) {
-                        Unit chosenUnit = makeUnitFromJson(factionJson2, unitId);
-                        opponentArmyList[unitId] = chosenUnit;
-                        std::cout << "Added: " << opponentFactionUnits[unitId] << "\n";
-                    } else {
-                        std::cout << "Invalid ID, please try again." << std::endl;
-                    }
-                }
+                buildUserArmyList(opponentFactionUnits, opponentArmyList, factionJson2);
                 break;
             }
         }

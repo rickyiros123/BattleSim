@@ -44,18 +44,19 @@ This project features a robust pipeline for cleaning, converting, and loading Wa
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone --recursive <your-repo-url>
-   cd BattleSim
-   ```
-2. Compile the source code:
-   ```bash
-   make
-   ```
-3. Run the program:
-   ```bash
-   ./battle-sim
-   ```
+  ```bash
+  git clone --recursive https://github.com/rickyiros123/BattleSim.git
+  cd BattleSim
+  ```
+2. Configure and build with CMake (recommended):
+  ```powershell
+  cmake -S . -B build
+  cmake --build build --config Debug
+  ```
+3. Run the program (Debug build):
+  ```powershell
+  .\build\Debug\battle-sim.exe
+  ```
 
 ---
 

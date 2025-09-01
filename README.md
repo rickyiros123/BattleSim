@@ -55,7 +55,7 @@ This project features a robust pipeline for cleaning, converting, and loading Wa
   ```
 3. Run the program (Debug build):
   ```powershell
-  .\build\Debug\battle-sim.exe
+  .\build\battle-sim.exe
   ```
 
 ---

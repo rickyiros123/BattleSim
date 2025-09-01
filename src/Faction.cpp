@@ -103,6 +103,8 @@ std::vector<Weapon> parseWeapons(const json &weaponJson) {
 
         weapons.push_back(std::move(weapon));
     }
+
+    return weapons;
 }
 
 // Build the user's army list

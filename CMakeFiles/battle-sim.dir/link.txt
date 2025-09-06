@@ -1,0 +1,1 @@
+/usr/bin/c++  -g "CMakeFiles/battle-sim.dir/src/Battle.cpp.o" "CMakeFiles/battle-sim.dir/src/Dice.cpp.o" "CMakeFiles/battle-sim.dir/src/Faction.cpp.o" "CMakeFiles/battle-sim.dir/src/Unit.cpp.o" "CMakeFiles/battle-sim.dir/src/main.cpp.o" -o battle-sim 

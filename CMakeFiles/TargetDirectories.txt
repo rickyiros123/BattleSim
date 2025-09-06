@@ -1,0 +1,3 @@
+/home/ricky/dev/BattleSim/CMakeFiles/battle-sim.dir
+/home/ricky/dev/BattleSim/CMakeFiles/edit_cache.dir
+/home/ricky/dev/BattleSim/CMakeFiles/rebuild_cache.dir

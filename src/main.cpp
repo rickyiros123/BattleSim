@@ -21,7 +21,7 @@ void displayMainMenu() {
     std::cout << "   Welcome to BattleSim!\n";
     std::cout << "=============================\n";
     std::cout << "a) Set up a battle\n";
-    std::cout << "b) Choice B\n";
+    std::cout << "b) Set up comabt phase\n";
     std::cout << "x) Exit\n";
     std::cout << "-----------------------------\n";
     std::cout << "Enter choice (a, b, x): ";
@@ -29,6 +29,9 @@ void displayMainMenu() {
 
 int main() {
     std::srand(static_cast<unsigned int>(std::chrono::high_resolution_clock::now().time_since_epoch().count()));  // Seed RNG
+    std::unordered_map<int, Unit> userArmyList;
+    std::unordered_map<int, Unit> opponentArmyList;
+
 
     char choice = ' ';
     while (choice != 'x') {
@@ -43,7 +46,7 @@ int main() {
         int factionChoice2 = 0;
         switch (choice) {
             case 'a': {
-                clearScreen();
+            
                 std::cout << "=============================\n";
                 std::cout << "   Battle Sim Setup\n";
                 std::cout << "=============================\n";
@@ -85,7 +88,7 @@ int main() {
                 }
 
                 std::unordered_map<int, std::string> factionUnits = buildFactionUnitMap(factionJson);
-                std::unordered_map<int, Unit> userArmyList;
+                
 
                 clearScreen();
                 std::cout << "Now let's select your units\n";
@@ -133,7 +136,6 @@ int main() {
 
                 std::unordered_map<int, std::string> opponentFactionUnits = buildFactionUnitMap(factionJson2);
 
-                std::unordered_map<int, Unit> opponentArmyList;
                 std::string input2;
                 clearScreen();
                 std::cout << "Now let's select your opponene units\n";
@@ -141,6 +143,13 @@ int main() {
                 std::cout << "-----------------------------\n";
 
                 buildUserArmyList(opponentFactionUnits, opponentArmyList, factionJson2);
+                break;
+            }
+
+            case 'b': {
+                std::cout << "Set up a combatphase" << std::endl;
+                std::cout << "Your armor consists of: ";
+                printUnitNames(userArmyList);
                 break;
             }
         }

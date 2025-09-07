@@ -2,6 +2,7 @@
 #include <iostream>
 #include <variant>
 #include <vector>
+#include <unordered_map>
 
 struct Weapon {
     std::variant<int, std::string> weaponDamage;
@@ -25,3 +26,4 @@ class Unit {
 };
 
 void printUnitSummary(const Unit &unit);
+void printUnitNames(std::unordered_map<int, Unit> &userArmyList);

@@ -82,7 +82,13 @@
     "stop_token": "cpp",
     "thread": "cpp",
     "xstddef": "cpp",
-    "variant": "cpp"
+    "variant": "cpp",
+    "cstdarg": "cpp",
+    "cwctype": "cpp",
+    "deque": "cpp",
+    "memory_resource": "cpp",
+    "string_view": "cpp",
+    "numbers": "cpp"
   },
   "editor.defaultFormatter": "ms-vscode.cpptools",
   "makefile.configureOnOpen": false

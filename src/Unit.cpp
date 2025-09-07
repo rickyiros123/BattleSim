@@ -1,5 +1,5 @@
 #include <Unit.h>
-
+#include <unordered_map>
 #include <string>
 Unit::Unit(int modelCount, int healthPerModel, int floatingDamage, int save, int ward, std::vector<Weapon> weapons, std::vector<std::string> keywords, std::string unitName) {
     this->modelCount = modelCount;
@@ -38,4 +38,10 @@ void printUnitSummary(const Unit &unit) {
     }
     std::cout << "=======================================================================" << std::endl;
     std::cout << std::endl;
+}
+
+void printUnitNames(std::unordered_map<int, Unit> &userArmyList){
+    for(const auto &unit: userArmyList){
+        std::cout << "Unit name: " << unit.second.unitName << std::endl;
+    }
 }

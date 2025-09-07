@@ -46,7 +46,7 @@ int main() {
         int factionChoice2 = 0;
         switch (choice) {
             case 'a': {
-            
+                clearScreen();
                 std::cout << "=============================\n";
                 std::cout << "   Battle Sim Setup\n";
                 std::cout << "=============================\n";
@@ -147,8 +147,9 @@ int main() {
             }
 
             case 'b': {
+                // Will set this up later
                 std::cout << "Set up a combatphase" << std::endl;
-                std::cout << "Your armor consists of: ";
+                std::cout << "Your army consists of: ";
                 printUnitNames(userArmyList);
                 break;
             }

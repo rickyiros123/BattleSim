@@ -147,7 +147,7 @@ int main() {
             }
 
             case 'b': {
-                // Will set this up later
+                // Will set this up laters
                 std::cout << "Set up a combatphase" << std::endl;
                 std::cout << "Your army consists of: ";
                 printUnitNames(userArmyList);
